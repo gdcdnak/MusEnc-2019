@@ -1,2 +1,2 @@
 # RSDM
-This is a simple template for publishing MEI with Verovio.
+This is my sample from day one of DHSI2019.
