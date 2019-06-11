@@ -63,7 +63,7 @@
                               <note dur="semibrevis" num="2" numbase="1" pname="e" oct="4" />
                               <note dur="minima" num="1" numbase="1" pname="d" oct="4" />
                               <note dur="semibrevis" num="2" numbase="1" pname="e" oct="4" />
-                              <note dur="semibrevis" num="2" numbase="1" pname="e" oct="4" />
+                              <note dur="semibrevis" num="2" numbase="1" pname="d" oct="4" />
                             </layer>
                         </staff>
                             <staff xml:id="staff-0000000360603925" n="2">
@@ -82,32 +82,6 @@
                                     <note xml:id="note-0000001612110149" dots="1"   dur="breve" oct="3" pname="d" color="#000000" />
                                 </layer>
                             </staff>
-
-                            <staff xml:id="staff-0000000041967080" n="1">
-                                <layer xml:id="layer-0000001806377058" n="1">
-                                    <mRest xml:id="mrest-0000001422753249" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000001791486856" n="2">
-                                <layer xml:id="layer-0000000105857440" n="1">
-                                    <note xml:id="note-0000000173263793"   dur="2" oct="3" pname="e" color="#000000" stem.dir="down" />
-                                    <note xml:id="note-0000000492985186"   dur="1" oct="3" pname="d" color="#000000" />
-                                    <note xml:id="note-0000000300786817"   dur="2" oct="3" pname="c" color="#000000" stem.dir="down" />
-                                    <note xml:id="note-0000000577922478"   dur="1" oct="2" pname="b" color="#000000" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000001682883028" n="3">
-                                <layer xml:id="layer-0000001717930168" n="1">
-                                    <mRest xml:id="mrest-0000001847699395" />
-                                </layer>
-                            </staff>
-                            <staff xml:id="staff-0000000736911614" n="4">
-                                <layer xml:id="layer-0000001256319935" n="1">
-                                    <note xml:id="note-0000000289851811"   dur="breve" oct="3" pname="g" color="#000000" />
-                                    <note xml:id="note-0000000802966769"   dur="1" oct="3" pname="g" color="#000000" />
-                                </layer>
-                            </staff>
-
                         </section>
                   </score>
                 </mdiv>
