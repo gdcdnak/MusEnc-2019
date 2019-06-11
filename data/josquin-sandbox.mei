@@ -26,7 +26,7 @@
       <!--                      <staffDef xml:id="staffdef-0000001196535498" clef.shape="G" clef.line="2" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="1" lines="5" ppq="256">
                                 <label xml:id="label-0000001203737989">Superius</label>
                             </staffDef> -->
-                            <staffDef mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="1">
+                            <staffDef mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="1" n="1" lines="5">
                               <label>Superius</label>
                               </staffDef>
                             <staffDef xml:id="staffdef-0000001224957247" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="2" lines="5" ppq="256">
