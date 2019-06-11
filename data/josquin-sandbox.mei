@@ -52,12 +52,20 @@
                     <section xml:id="section-0000001860390113">
                         <pb xml:id="pb-0000001847738247" />
                         <pb xml:id="pb-0000001263039732" />
-                        <measure xml:id="measure-0000000408817738" n="1">
-                            <staff xml:id="staff-0000000802364934" n="1">
-                                <layer xml:id="layer-0000000590456865" n="1">
-                                    <mRest xml:id="mrest-0000000038513764" />
-                                </layer>
-                            </staff>
+                        <staff xml:id="staff-0000000802364934" n="1">
+                            <layer xml:id="layer-0000000590456865" n="1">
+                              <rest dur="longa" num="6" numbase="1" />
+                              <note dur="semibrevis" num="2" numbase="1" pname="d" oct="4" />
+                              <note dur="minima" num="1" numbase="1" pname="d" oct="4" />
+                              <note dur="semibrevis" num="2" numbase="1" pname="g" oct="4" />
+                              <note dur="minima" num="1" numbase="1" pname="g" oct="4" />
+                              <note dur="minima" num="1" numbase="1" pname="f" oct="4" />
+                              <note dur="semibrevis" num="2" numbase="1" pname="e" oct="4" />
+                              <note dur="minima" num="1" numbase="1" pname="d" oct="4" />
+                              <note dur="semibrevis" num="2" numbase="1" pname="e" oct="4" />
+                              <note dur="semibrevis" num="2" numbase="1" pname="e" oct="4" />
+                            </layer>
+                        </staff>
                             <staff xml:id="staff-0000000360603925" n="2">
                                 <layer xml:id="layer-0000000038499959" n="1">
                                     <note xml:id="note-0000000276646635" dur="breve" oct="3" pname="d" color="#000000" />
@@ -74,29 +82,7 @@
                                     <note xml:id="note-0000001612110149" dots="1"   dur="breve" oct="3" pname="d" color="#000000" />
                                 </layer>
                             </staff>
-                            <dir xml:id="dir-0000001141337843" staff="1" startid="#mrest-0000000038513764">
-                                <rend xml:id="rend-0000000916157897" fontfam="Times" fontstyle="italic" fontweight="normal">MenCircle</rend>
-                            </dir>
-                            <dir xml:id="dir-0000000527499270" staff="2" startid="#note-0000000276646635">
-                                <rend xml:id="rend-0000000191134800" fontfam="Times" fontstyle="italic" fontweight="normal">MenCircle</rend>
-                            </dir>
-                            <dir xml:id="dir-0000000686865958" staff="3" startid="#mrest-0000002101447419">
-                                <rend xml:id="rend-0000000599908238" fontfam="Times New Roman" fontstyle="italic" fontweight="normal">barlines:3</rend>
-                            </dir>
-                            <dir xml:id="dir-0000001418268149" staff="3" startid="#mrest-0000002101447419">
-                                <rend xml:id="rend-0000001291400798" fontfam="Times" fontstyle="italic" fontweight="normal">MenCircleDot</rend>
-                            </dir>
-                            <dir xml:id="dir-0000000440386713" staff="3" startid="#mrest-0000002101447419">
-                                <rend xml:id="rend-0000000839517934" fontfam="Times" fontstyle="italic" fontweight="normal">rscale:1/2</rend>
-                            </dir>
-                            <dir xml:id="dir-0000001382792158" staff="3" startid="#mrest-0000002101447419">
-                                <rend xml:id="rend-0000001489750762" fontfam="Times" fontstyle="normal" fontweight="normal">Mensuration canon at upper ninth</rend>
-                            </dir>
-                            <dir xml:id="dir-0000002126502580" staff="4" startid="#note-0000001612110149">
-                                <rend xml:id="rend-0000000618534183" fontfam="Times" fontstyle="italic" fontweight="normal">MenCircle</rend>
-                            </dir>
-                        </measure>
-                        <measure xml:id="measure-0000000476556403" n="2">
+
                             <staff xml:id="staff-0000000041967080" n="1">
                                 <layer xml:id="layer-0000001806377058" n="1">
                                     <mRest xml:id="mrest-0000001422753249" />
@@ -121,7 +107,7 @@
                                     <note xml:id="note-0000000802966769"   dur="1" oct="3" pname="g" color="#000000" />
                                 </layer>
                             </staff>
-                        </measure>
+
                         </section>
                   </score>
                 </mdiv>
