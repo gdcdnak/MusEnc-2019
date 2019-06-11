@@ -54,7 +54,7 @@
                         <pb xml:id="pb-0000001263039732" />
                         <staff xml:id="staff-0000000802364934" n="1">
                             <layer xml:id="layer-0000000590456865" n="1">
-                              <rest dur="longa" num="6" numbase="1" loc="1" />
+                              <rest dur="longa" num="6" numbase="2" loc="1" />
                               <note dur="semibrevis" num="2" numbase="1" pname="d" oct="4" />
                               <note dur="minima" num="1" numbase="1" pname="d" oct="4" />
                               <note dur="semibrevis" num="2" numbase="1" pname="g" oct="4" />
