@@ -68,8 +68,13 @@
                         </staff>
                             <staff xml:id="staff-0000000360603925" n="2">
                                 <layer xml:id="layer-0000000038499959" n="1">
-                                    <note xml:id="note-0000000276646635" dur="breve" oct="3" pname="d" color="#000000" />
-                                    <note xml:id="note-0000000557841680" dur="1" oct="3" pname="f" color="#000000" />
+                                  <note dur="brevis" num="4" numbase="1" pname="d" oct="4" />
+                                  <note dur="semibrevis" num="2" numbase="1" pname="f" oct="4" />
+                                  <note dur="minima" num="1" numbase="1" pname="e" oct="4" />
+                                  <note dur="semibrevis" num="2" numbase="1" pname="d" oct="4" />
+                                  <note dur="minima" num="1" numbase="1" pname="c" oct="4" />
+                                  <note dur="semibrevis" num="2" numbase="1" pname="b" oct="3" />
+                                  <note dur="minima" num="1" numbase="1" pname="a" oct="3" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000000817701415" n="3">
