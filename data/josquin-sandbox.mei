@@ -4,7 +4,7 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>0603a-MIssa_Lhomme_arme_super_voces_musicales-Kyrie</title>
+                <title>Sandbox-Missa_Lhomme_arme_super_voces_musicales-Kyrie</title>
             </titleStmt>
             <pubStmt></pubStmt>
         </fileDesc>
@@ -29,15 +29,24 @@
                             <staffDef mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="1" n="1" lines="5">
                               <label>Superius</label>
                               </staffDef>
-                            <staffDef xml:id="staffdef-0000001224957247" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="2" lines="5" ppq="256">
+                            <staffDef mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="4" n="2" lines="5">
+                                <label>Altus</label>
+                          </staffDef>
+        <!--                    <staffDef xml:id="staffdef-0000001224957247" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="2" lines="5" ppq="256">
                                 <label xml:id="label-0000001522608761">Altus</label>
-                            </staffDef>
-                            <staffDef xml:id="staffdef-0000001901623726" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="3" lines="5" ppq="256">
+                            </staffDef> -->
+                            <staffDef mensur.sign="O" mensur.loc="3" mensur.dot="true" clef.shape="F" clef.line="3" n="3" lines="5">
+                                <label>Tenor</label>
+                          </staffDef>
+  <!--                          <staffDef xml:id="staffdef-0000001901623726" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="3" lines="5" ppq="256">
                                 <label xml:id="label-0000001358086371">Tenor</label>
-                            </staffDef>
-                            <staffDef xml:id="staffdef-0000001259885738" clef.shape="F" clef.line="4" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="4" lines="5" ppq="256">
+                            </staffDef> -->
+                            <staffDef mensur.sign="O" mensur.loc="3" clef.shape="F" clef.line="4" n="4" lines="5">
+                                <label>Tenor</label>
+                          </staffDef>
+<!--                            <staffDef xml:id="staffdef-0000001259885738" clef.shape="F" clef.line="4" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="4" lines="5" ppq="256">
                                 <label xml:id="label-0000000996811346">Bassus</label>
-                            </staffDef>
+                            </staffDef> -->
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001860390113">
