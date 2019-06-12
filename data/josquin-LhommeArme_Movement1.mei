@@ -50,6 +50,7 @@
                             <note dur="minima" num="1" numbase="1" pname="d" oct="4" />
                             <note dur="semibrevis" num="2" numbase="1" pname="e" oct="4" />
                             <note dur="semibrevis" num="2" numbase="1" pname="d" oct="4" />
+                            <barLine n=""/>
                           </layer>
                       </staff>
                           <staff  n="2">
@@ -98,10 +99,10 @@
                     <section xml:id="section-0000001860390113">
                         <pb xml:id="pb-0000001847738247" />
                         <pb xml:id="pb-0000001263039732" />
-
                         <measure xml:id="measure-0000000408817738" n="1">
                             <staff xml:id="staff-0000000802364934" n="1">
                                 <layer xml:id="layer-0000000590456865" n="1">
+                                  <barLine control="true"/>
                                   <clef shape="G" line="2"/>
                                   <keySig mode="minor" sig="0"></keySig>
                                   <meterSig count="3" unit="1"/>
