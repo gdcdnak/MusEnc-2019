@@ -93,7 +93,18 @@
                             </staff>
                             <staff xml:id="staff-0000001416713018" n="4">
                                 <layer xml:id="layer-0000001670381910" n="1">
-                                    <note xml:id="note-0000001612110149" dots="1"   dur="breve" oct="3" pname="d" color="#000000" />
+                                    <ligature form="recta">
+                                      <note dur="brevis" pname="d" oct="3" />
+                                    <note dur="brevis" pname="g" oct="3" />
+                                  </ligature>
+                                  <note dur="semibrevis" pname="g" oct="3" />
+                                  <note dur="minima" pname="f" oct="3" />
+                                  <note dur="semibrevis" dots="1" pname="g" oct="3" />
+                                  <note dur="semiminima" pname="f" oct="3" />
+                                  <note dur="semiminima" pname="e" oct="3" />
+                                  <note dur="semiminima" pname="d" oct="3" />
+                                  <note dur="semibrevis" pname="e" oct="3" />
+                                  <note dur="minima" pname="d" oct="3" />
                                 </layer>
                             </staff>
                         </section>
