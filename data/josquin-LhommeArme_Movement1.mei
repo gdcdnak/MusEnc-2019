@@ -97,13 +97,16 @@
                           </staff>
                           </measure>
                       </section>
-                    <section xml:id="section-0000001860390113">
-                        <pb xml:id="pb-0000001847738247" />
-                        <pb xml:id="pb-0000001263039732" />
+                      <scoreDef>
+                      <staffGrp>
                         <staffDef clef.shape="G" clef.line="2" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="1" />
                         <staffDef clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="2" />
                         <staffDef clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="3" />
                         <staffDef clef.shape="F" clef.line="4" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="4" />
+                      </staffGrp></scoreDef>
+                    <section xml:id="section-0000001860390113">
+                        <pb xml:id="pb-0000001847738247" />
+                        <pb xml:id="pb-0000001263039732" />
                         <measure n="1">
                             <staff xml:id="staff-0000000802364934" n="1">
                                 <layer xml:id="layer-0000000590456865" n="1">
