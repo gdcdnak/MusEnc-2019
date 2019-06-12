@@ -101,15 +101,19 @@
                         <pb xml:id="pb-0000001847738247" />
                         <pb xml:id="pb-0000001263039732" />
                         <measure n="1">
-                          <staffDef clef.shape="G" clef.line="2" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="1" />
+
                             <staff xml:id="staff-0000000802364934" n="1">
+                              <staffDef clef.shape="G" clef.line="2" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="1" />
                                 <layer xml:id="layer-0000000590456865" n="1">
                                     <mRest xml:id="mrest-0000000038513764" />
                                 </layer>
                             </staff>
-                            <staffDef clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="2" />
                             <staff xml:id="staff-0000000360603925" n="2">
+
                                 <layer xml:id="layer-0000000038499959" n="1">
+                                  <clef shape="G" line="2" dis="8" dis.place="below" />
+                                  <keySig mode="minor" sig="0"></keySig>
+                                  <meterSig count="3" unit="1"/>
                                     <note xml:id="note-0000000276646635" dur="breve" oct="3" pname="d" color="#000000" />
                                     <note xml:id="note-0000000557841680" dur="1" oct="3" pname="f" color="#000000" />
                                 </layer>
