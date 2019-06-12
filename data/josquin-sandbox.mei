@@ -16,37 +16,107 @@
                 </application>
             </appInfo>
         </encodingDesc>
+        <workDesc>
+        <work>
+        <incip>
+          <score >
+              <scoreDef >
+                  <staffGrp >
+                      <staffDef mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="1" n="1" lines="5">
+                        <label>Superius</label>
+                        </staffDef>
+                      <staffDef mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="4" n="2" lines="5">
+                          <label>Altus</label>
+                    </staffDef>
+                      <staffDef mensur.sign="O" mensur.loc="3" mensur.dot="true" clef.shape="F" clef.line="3" n="3" lines="5">
+                          <label>Tenor</label>
+                    </staffDef>
+                        <staffDef mensur.sign="O" mensur.loc="3" clef.shape="F" clef.line="4" n="4" lines="5">
+                          <label>Tenor</label>
+                    </staffDef>
+                  </staffGrp>
+              </scoreDef>
+              <section >
+                  <staff  n="1">
+                      <layer  n="1">
+                        <rest dur="longa" num="6" numbase="1" loc="2" />
+                        <note dur="semibrevis" num="2" numbase="1" pname="d" oct="4" />
+                        <note dur="minima" num="1" numbase="1" pname="d" oct="4" />
+                        <note dur="semibrevis" num="2" numbase="1" pname="g" oct="4" />
+                        <note dur="minima" num="1" numbase="1" pname="g" oct="4" />
+                        <note dur="minima" num="1" numbase="1" pname="f" oct="4" />
+                        <note dur="semibrevis" num="2" numbase="1" pname="e" oct="4" />
+                        <note dur="minima" num="1" numbase="1" pname="d" oct="4" />
+                        <note dur="semibrevis" num="2" numbase="1" pname="e" oct="4" />
+                        <note dur="semibrevis" num="2" numbase="1" pname="d" oct="4" />
+                      </layer>
+                  </staff>
+                      <staff  n="2">
+                          <layer  n="1">
+                            <note dur="brevis" num="4" numbase="1" pname="d" oct="4" />
+                            <note dur="semibrevis" num="2" numbase="1" pname="f" oct="4" />
+                            <note dur="minima" num="1" numbase="1" pname="e" oct="4" />
+                            <note dur="semibrevis" num="2" numbase="1" pname="d" oct="4" />
+                            <note dur="minima" num="1" numbase="1" pname="c" oct="4" />
+                            <note dur="semibrevis" num="2" numbase="1" pname="b" oct="3" />
+                            <note dur="minima" num="1" numbase="1" pname="a" oct="3" />
+                          </layer>
+                      </staff>
+                      <staff n="3">
+                          <layer  n="1">
+                            <rest dur="longa" num="18" numbase="1" loc="2" />
+                            <note dur="semibrevis" num="4" numbase="1" pname="c" oct="3" />
+                            <note dur="minima" num="2" numbase="1" pname="c" oct="3" />
+                            <note dur="semibrevis" num="6" numbase="1" pname="f" oct="3" />
+                            <note dur="minima" num="2" numbase="1" pname="f" oct="3" />
+                            <note dur="minima" num="4" numbase="1" pname="e" oct="3" />
+                            <note dur="semibrevis" num="4" numbase="1" pname="d" oct="3" />
+                            <note dur="minima" num="2" numbase="1" pname="c" oct="3" />
+                            <note dur="semibrevis" num="6" numbase="1" pname="d" oct="3" />
+                            <note dur="semibrevis" num="4" numbase="1" pname="c" oct="3" />
+                          </layer>
+                      </staff>
+                      <staff  n="4">
+                          <layer  n="1">
+                              <ligature form="recta">
+                                <note dur="brevis" pname="d" oct="3" num="6" numbase="1"/>
+                                <note dur="brevis" pname="g" oct="3" num="4" numbase="1" />
+                            </ligature>
+                            <note dur="semibrevis" pname="g" oct="3" num="2" numbase="1" />
+                            <note dur="minima" pname="f" oct="3" num="1" numbase="1"/>
+                            <note dur="minima" pname="g" oct="3" num="3" numbase="2" />
+                            <dot form="aug" />
+                            <note dur="semiminima" pname="f" oct="3" num="1" numbase="2" />
+                            <note dur="semiminima" pname="e" oct="3" num="1" numbase="2"/>
+                            <note dur="semiminima" pname="d" oct="3" num="1" numbase="2"/>
+                            <note dur="semibrevis" pname="e" oct="3" num="2" numbase="1"/>
+                            <note dur="minima" pname="d" oct="3" num="1" numbase="1"/>
+                          </layer>
+                      </staff>
+                  </section>
+            </score>
+        </incip>
+      </work>
+    </workDesc>
     </meiHead>
-    <music>
+      <music>
         <body>
             <mdiv xml:id="mdiv-0000000414289607">
                 <score xml:id="score-0000000571571178">
                     <scoreDef xml:id="scoredef-0000000644562482">
                         <staffGrp xml:id="staffgrp-0000001563980770">
-      <!--                      <staffDef xml:id="staffdef-0000001196535498" clef.shape="G" clef.line="2" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="1" lines="5" ppq="256">
-                                <label xml:id="label-0000001203737989">Superius</label>
-                            </staffDef> -->
                             <staffDef mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="1" n="1" lines="5">
                               <label>Superius</label>
                               </staffDef>
                             <staffDef mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="4" n="2" lines="5">
                                 <label>Altus</label>
                           </staffDef>
-        <!--                    <staffDef xml:id="staffdef-0000001224957247" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="2" lines="5" ppq="256">
-                                <label xml:id="label-0000001522608761">Altus</label>
-                            </staffDef> -->
                             <staffDef mensur.sign="O" mensur.loc="3" mensur.dot="true" clef.shape="F" clef.line="3" n="3" lines="5">
                                 <label>Tenor</label>
                           </staffDef>
-  <!--                          <staffDef xml:id="staffdef-0000001901623726" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="3" lines="5" ppq="256">
-                                <label xml:id="label-0000001358086371">Tenor</label>
-                            </staffDef> -->
-                            <staffDef mensur.sign="O" mensur.loc="3" clef.shape="F" clef.line="4" n="4" lines="5">
+                              <staffDef mensur.sign="O" mensur.loc="3" clef.shape="F" clef.line="4" n="4" lines="5">
                                 <label>Tenor</label>
                           </staffDef>
-<!--                            <staffDef xml:id="staffdef-0000001259885738" clef.shape="F" clef.line="4" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="4" lines="5" ppq="256">
-                                <label xml:id="label-0000000996811346">Bassus</label>
-                            </staffDef> -->
                         </staffGrp>
                     </scoreDef>
                     <section xml:id="section-0000001860390113">
