@@ -19,7 +19,7 @@
     </meiHead>
     <music>
         <body>
-            <mdiv xml:id="mdiv-0000000414289607">
+            <mdiv xml:id="mdiv-0000000414289607" n="1">
               <score >
                   <scoreDef >
                       <staffGrp >
@@ -93,15 +93,35 @@
                                 <note dur="semiminima" pname="d" oct="3" num="1" numbase="2"/>
                                 <note dur="semibrevis" pname="e" oct="3" num="2" numbase="1"/>
                                 <note dur="minima" pname="d" oct="3" num="1" numbase="1"/>
+                                <barLine />
                               </layer>
                           </staff>
                           </measure>
                       </section>
-                    <section xml:id="section-0000001860390113">
+                      </score>
+                    </mdiv>
+                      <mdiv xml:id="mdiv-0000000948463239" n="2">
+                          <score xml:id="score-0000000803583033">
+                              <scoreDef xml:id="scoredef-0000000695576770">
+                                  <staffGrp xml:id="staffgrp-0000001363238498">
+                                      <staffDef xml:id="staffdef-0000001273202262" clef.shape="G" clef.line="2" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="1" lines="5" ppq="256">
+                                          <label xml:id="label-0000000756572990">Superius</label>
+                                      </staffDef>
+                                      <staffDef xml:id="staffdef-0000000241427287" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="2" lines="5" ppq="256">
+                                          <label xml:id="label-0000001660723505">Altus</label>
+                                      </staffDef>
+                                      <staffDef xml:id="staffdef-0000001210131862" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="3" lines="5" ppq="256">
+                                          <label xml:id="label-0000000428795634">Tenor</label>
+                                      </staffDef>
+                                      <staffDef xml:id="staffdef-0000001797987123" clef.shape="F" clef.line="4" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="4" lines="5" ppq="256">
+                                          <label xml:id="label-0000000469369590">Bassus</label>
+                                      </staffDef>
+                                  </staffGrp>
+                              </scoreDef>
+                              <section xml:id="section-0000000031650895">
                         <pb xml:id="pb-0000001847738247" />
                         <pb xml:id="pb-0000001263039732" />
                         <measure n="1">
-
                             <staff xml:id="staff-0000000802364934" n="1">
                               <staffDef clef.shape="G" clef.line="2" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="1" />
                                 <layer xml:id="layer-0000000590456865" n="1">
