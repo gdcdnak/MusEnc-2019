@@ -99,7 +99,7 @@
                                   </ligature>
                                   <note dur="semibrevis" pname="g" oct="3" num="2" numbase="1" />
                                   <note dur="minima" pname="f" oct="3" num="1" numbase="1"/>
-                                  <note dur="semibrevis" pname="g" oct="3" num="3" numbase="2" />
+                                  <note dur="minima" pname="g" oct="3" num="3" numbase="2" />
                                   <dot form="aug" />
                                   <note dur="semiminima" pname="f" oct="3" num="1" numbase="2" />
                                   <note dur="semiminima" pname="e" oct="3" num="1" numbase="2"/>
