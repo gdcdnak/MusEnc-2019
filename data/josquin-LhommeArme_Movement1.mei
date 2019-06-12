@@ -106,7 +106,7 @@
                               <layer xml:id="layer-0000000590456865" n="1">
                                 <keySig mode="minor" sig="0"></keySig>
                                   <clef xml:id="cmnClef1" shape="G" line="2"/>
-                                  <meterSig prev="#cmnClef1" count="3" unit="1"/>
+                                  <meterSig prev="#cmnClef1" next="#mrest-0000000038513764" count="3" unit="1"/>
                                     <mRest xml:id="mrest-0000000038513764" />
                                 </layer>
                             </staff>
