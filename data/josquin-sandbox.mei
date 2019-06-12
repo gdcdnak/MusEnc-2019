@@ -79,7 +79,16 @@
                             </staff>
                             <staff xml:id="staff-0000000817701415" n="3">
                                 <layer xml:id="layer-0000000793298535" n="1">
-                                    <mRest xml:id="mrest-0000002101447419" />
+                                  <rest dur="longa" num="18" numbase="1" loc="2" />
+                                  <note dur="semibrevis" num="4" numbase="1" pname="c" oct="3" />
+                                  <note dur="minima" num="2" numbase="1" pname="c" oct="3" />
+                                  <note dur="semibrevis" num="6" numbase="1" pname="f" oct="3" />
+                                  <note dur="minima" num="2" numbase="1" pname="f" oct="3" />
+                                  <note dur="minima" num="4" numbase="1" pname="e" oct="3" />
+                                  <note dur="semibrevis" num="4" numbase="1" pname="d" oct="3" />
+                                  <note dur="minima" num="2" numbase="1" pname="c" oct="3" />
+                                  <note dur="semibrevis" num="6" numbase="1" pname="d" oct="3" />
+                                  <note dur="semibrevis" num="4" numbase="1" pname="c" oct="3" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000001416713018" n="4">
