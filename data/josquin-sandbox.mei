@@ -94,17 +94,17 @@
                             <staff xml:id="staff-0000001416713018" n="4">
                                 <layer xml:id="layer-0000001670381910" n="1">
                                     <ligature form="recta">
-                                      <note dur="brevis" pname="d" oct="3" />
-                                    <note dur="brevis" pname="g" oct="3" />
+                                      <note dur="brevis" pname="d" oct="3" num="6" numbase="1"/>
+                                      <note dur="brevis" pname="g" oct="3" num="4" numbase="1" />
                                   </ligature>
-                                  <note dur="semibrevis" pname="g" oct="3" />
-                                  <note dur="minima" pname="f" oct="3" />
-                                  <note dur="semibrevis" dots="1" pname="g" oct="3" />
-                                  <note dur="semiminima" pname="f" oct="3" />
-                                  <note dur="semiminima" pname="e" oct="3" />
-                                  <note dur="semiminima" pname="d" oct="3" />
-                                  <note dur="semibrevis" pname="e" oct="3" />
-                                  <note dur="minima" pname="d" oct="3" />
+                                  <note dur="semibrevis" pname="g" oct="3" num="2" numbase="1" />
+                                  <note dur="minima" pname="f" oct="3" num="1" numbase="1"/>
+                                  <note dur="semibrevis" dots="1" pname="g" oct="3" num="3" numbase="2" />
+                                  <note dur="semiminima" pname="f" oct="3" num="1" numbase="2" />
+                                  <note dur="semiminima" pname="e" oct="3" num="1" numbase="2"/>
+                                  <note dur="semiminima" pname="d" oct="3" num="1" numbase="2"/>
+                                  <note dur="semibrevis" pname="e" oct="3" num="2" numbase="1"/>
+                                  <note dur="minima" pname="d" oct="3" num="1" numbase="1"/>
                                 </layer>
                             </staff>
                         </section>
