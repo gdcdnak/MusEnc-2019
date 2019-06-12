@@ -95,44 +95,41 @@
                               </layer>
                           </staff>
                       </section>
-                    <scoreDef xml:id="scoredef-0000000644562482">
-                        <staffGrp xml:id="staffgrp-0000001563980770">
-                            <staffDef xml:id="staffdef-0000001196535498" clef.shape="G" clef.line="2" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="1" lines="5" ppq="256">
-                                <label xml:id="label-0000001203737989">Superius</label>
-                            </staffDef>
-                            <staffDef xml:id="staffdef-0000001224957247" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="2" lines="5" ppq="256">
-                                <label xml:id="label-0000001522608761">Altus</label>
-                            </staffDef>
-                            <staffDef xml:id="staffdef-0000001901623726" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="3" lines="5" ppq="256">
-                                <label xml:id="label-0000001358086371">Tenor</label>
-                            </staffDef>
-                            <staffDef xml:id="staffdef-0000001259885738" clef.shape="F" clef.line="4" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="4" lines="5" ppq="256">
-                                <label xml:id="label-0000000996811346">Bassus</label>
-                            </staffDef>
-                        </staffGrp>
-                    </scoreDef>
                     <section xml:id="section-0000001860390113">
                         <pb xml:id="pb-0000001847738247" />
                         <pb xml:id="pb-0000001263039732" />
+
                         <measure xml:id="measure-0000000408817738" n="1">
                             <staff xml:id="staff-0000000802364934" n="1">
                                 <layer xml:id="layer-0000000590456865" n="1">
+                                  <clef shape="G" line="2"/>
+                                  <keySig mode="minor" sig="0"></keySig>
+                                  <meterSig count="3" unit="1"/>
                                     <mRest xml:id="mrest-0000000038513764" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000000360603925" n="2">
                                 <layer xml:id="layer-0000000038499959" n="1">
+                                    <clef shape="G" line="2" dis="8" dis.place="below"/>
+                                    <keySig mode="minor" sig="0"></keySig>
+                                    <meterSig count="3" unit="1"/>
                                     <note xml:id="note-0000000276646635" dur="breve" oct="3" pname="d" color="#000000" />
                                     <note xml:id="note-0000000557841680" dur="1" oct="3" pname="f" color="#000000" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000000817701415" n="3">
                                 <layer xml:id="layer-0000000793298535" n="1">
+                                  <clef shape="G" line="2" dis="8" dis.place="below"/>
+                                  <keySig mode="minor" sig="0"></keySig>
+                                  <meterSig count="3" unit="1"/>
                                     <mRest xml:id="mrest-0000002101447419" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000001416713018" n="4">
                                 <layer xml:id="layer-0000001670381910" n="1">
+                                  <clef shape="F" line="4" />
+                                  <keySig mode="minor" sig="0"></keySig>
+                                  <meterSig count="3" unit="1"/>
                                     <note xml:id="note-0000001612110149" dots="1"   dur="breve" oct="3" pname="d" color="#000000" />
                                 </layer>
                             </staff>
