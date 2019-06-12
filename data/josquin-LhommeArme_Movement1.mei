@@ -100,38 +100,30 @@
                     <section xml:id="section-0000001860390113">
                         <pb xml:id="pb-0000001847738247" />
                         <pb xml:id="pb-0000001263039732" />
-                        <measure  n="1">
+                        <measure n="1">
                             <staff xml:id="staff-0000000802364934" n="1">
+                              <staffDef clef.shape="G" clef.line="2" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="1" />
                                 <layer xml:id="layer-0000000590456865" n="1">
-                                  <clef xml:id="superClef1" shape="G" line="2" />
-                                  <keySig mode="minor" sig="0" next="superSig1" />
-                                  <meterSig xml:id="superSig1" count="3" unit="1"  />
                                     <mRest xml:id="mrest-0000000038513764" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000000360603925" n="2">
+                              <staffDef clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="2" />
                                 <layer xml:id="layer-0000000038499959" n="1">
-                                    <clef shape="G" line="2" dis="8" dis.place="below" n="1"/>
-                                    <keySig mode="minor" sig="0" n="2"></keySig>
-                                    <meterSig count="3" unit="1" n="3"/>
                                     <note xml:id="note-0000000276646635" dur="breve" oct="3" pname="d" color="#000000" />
                                     <note xml:id="note-0000000557841680" dur="1" oct="3" pname="f" color="#000000" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000000817701415" n="3">
+                              <staffDef xml:id="staffdef-0000001210131862" clef.shape="G" clef.line="2" clef.dis="8" clef.dis.place="below" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="3" />
                                 <layer xml:id="layer-0000000793298535" n="1">
-                                  <clef shape="G" line="2" dis="8" dis.place="below" n="1"/>
-                                  <keySig mode="minor" sig="0" n="2"></keySig>
-                                  <meterSig count="3" unit="1" n="3"/>
-                                    <mRest xml:id="mrest-0000002101447419" />
+                                  <mRest xml:id="mrest-0000002101447419" />
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000001416713018" n="4">
+                              <staffDef xml:id="staffdef-0000001797987123" clef.shape="F" clef.line="4" key.mode="minor" key.sig="0" meter.count="3" meter.unit="1" n="4" />
                                 <layer xml:id="layer-0000001670381910" n="1">
-                                  <clef shape="F" line="4" n="1"/>
-                                  <keySig mode="minor" sig="0" n="2"></keySig>
-                                  <meterSig count="3" unit="1" n="3"/>
-                                    <note xml:id="note-0000001612110149" dots="1"   dur="breve" oct="3" pname="d" color="#000000" />
+                                  <note xml:id="note-0000001612110149" dots="1"   dur="breve" oct="3" pname="d" color="#000000" />
                                 </layer>
                             </staff>
                         <!--    <dir xml:id="dir-0000001141337843" staff="1" startid="#mrest-0000000038513764">
