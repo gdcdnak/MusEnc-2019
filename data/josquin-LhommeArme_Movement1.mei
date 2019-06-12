@@ -103,10 +103,9 @@
                         <measure  n="1">
                             <staff xml:id="staff-0000000802364934" n="1">
                                 <layer xml:id="layer-0000000590456865" n="1">
-                                  <barLine />
-                                  <clef shape="G" line="2" n="1"/>
-                                  <keySig mode="minor" sig="0" n="2"></keySig>
-                                  <meterSig count="3" unit="1" n="3"/>
+                                  <clef xml:id="superClef1" shape="G" line="2" />
+                                  <keySig mode="minor" sig="0" next="superSig1" />
+                                  <meterSig xml:id="superSig1" count="3" unit="1"  />
                                     <mRest xml:id="mrest-0000000038513764" />
                                 </layer>
                             </staff>
