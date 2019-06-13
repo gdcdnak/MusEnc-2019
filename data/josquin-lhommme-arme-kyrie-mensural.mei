@@ -39,23 +39,23 @@
               <score >
                 <app>
                   <lem source="#White">
-                  <scoreDef >
-                      <staffGrp >
-                          <staffDef mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="1" n="1" lines="5">
-                            <label>Superius</label>
+                  <scoreDef xml:id="scoredef-1000002056545718">
+                      <staffGrp xml:id="staffgrp-1001">
+                          <staffDef xml:id="staffdef-1001" mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="1" n="1" lines="5">
+                            <label xml:id="label-1001">Superius</label>
                             </staffDef>
-                          <staffDef mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="4" n="2" lines="5">
-                              <label>Altus</label>
+                          <staffDef xml:id="staffdef-1002" mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="4" n="2" lines="5">
+                              <label xml:id="label-1002">Altus</label>
                         </staffDef>
-                          <staffDef mensur.sign="O" mensur.loc="3" mensur.dot="true" clef.shape="F" clef.line="3" n="3" lines="5">
-                              <label>Tenor</label>
+                          <staffDef xml:id="staffdef-1003" mensur.sign="O" mensur.loc="3" mensur.dot="true" clef.shape="F" clef.line="3" n="3" lines="5">
+                              <label xml:id="label-1003">Tenor</label>
                         </staffDef>
-                            <staffDef mensur.sign="O" mensur.loc="3" clef.shape="F" clef.line="4" n="4" lines="5">
-                              <label>Tenor</label>
+                            <staffDef xml:id="staffdef-1004" mensur.sign="O" mensur.loc="3" clef.shape="F" clef.line="4" n="4" lines="5">
+                              <label xml:id="label-1004">Tenor</label>
                         </staffDef>
                       </staffGrp>
                   </scoreDef>
-                  <section >
+                  <section xml:id="section-1001">
                     <measure right="dbl">
                     <!-- SUPERIUS -->
                       <staff  n="1">
@@ -433,7 +433,9 @@
                 </lem>
 
 
+<rdg></rdg>
   <!-- Common Music Notaion -->
+  <!--
                     <rdg source="#CMN">
                       <scoreDef xml:id="scoredef-0000002056545718">
                           <staffGrp xml:id="staffgrp-0000000015562865">
@@ -1080,6 +1082,7 @@
                           </measure>
                           </section>
                           </rdg>
+                        -->
                           </app>
                           </score>
                           </mdiv>
