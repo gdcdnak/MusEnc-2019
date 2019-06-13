@@ -67,91 +67,94 @@
                             <note xml:id="note-0000000619636875"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
                             <custos/>
 
-                            <note xml:id="note-0000000944833916"   dur="minima" num="3" numbase="4" oct="4" pname="a" color="#000000"  />
+                            <note xml:id="note-0000000944833916"   dur="minima" num="3" numbase="4" oct="4" pname="a" color="#000000" stem.dir="down" />
                             <dot form="aug" />
-                            <note xml:id="note-0000002142721892"   dur="semiminima" num="1" numbase="4" oct="4" pname="g" color="#000000"  />
+                            <note xml:id="note-0000002142721892"   dur="semiminima" num="1" numbase="4" oct="4" pname="g" color="#000000" stem.dir="down"  />
                             <!--M-->
-                            <note xml:id="note-0000002038380932"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000"  />
-                            <note xml:id="note-0000000997493345"   dur="minima" num="3" numbase="4" oct="4" pname="g" color="#000000"  />
+                            <note xml:id="note-0000002038380932"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down"/>
+                            <note xml:id="note-0000000997493345"   dur="minima" num="3" numbase="4" oct="4" pname="g" color="#000000" stem.dir="down" />
                             <dot form="aug" />
-                            <note xml:id="note-0000001185667452"   dur="semiminima" num="1" numbase="4" oct="4" pname="f" color="#000000"  />
-                            <note xml:id="note-0000000955602355"   dur="semiminima" num="1" numbase="4" oct="4" pname="e" color="#000000"  />
-                            <note xml:id="note-0000002067310526"   dur="semiminima" num="1" numbase="4" oct="4" pname="d" color="#000000"  />
-                            <note xml:id="note-0000001739119491"   dur="semiminima" num="1" numbase="4" oct="4" pname="e" color="#000000"  />
-                            <note xml:id="note-0000001490569184"   dur="semiminima" num="1" numbase="4" oct="4" pname="d" color="#000000"  />
-                            <note xml:id="note-0000000541119853"   dur="minima" num="1" numbase="2" oct="4" pname="e" color="#000000"  />
+                            <note xml:id="note-0000001185667452"   dur="semiminima" num="1" numbase="4" oct="4" pname="f" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000955602355"   dur="semiminima" num="1" numbase="4" oct="4" pname="e" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000002067310526"   dur="semiminima" num="1" numbase="4" oct="4" pname="d" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000001739119491"   dur="semiminima" num="1" numbase="4" oct="4" pname="e" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000001490569184"   dur="semiminima" num="1" numbase="4" oct="4" pname="d" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000541119853"   dur="minima" num="1" numbase="2" oct="4" pname="e" color="#000000"  stem.dir="up"/>
 
                             <note xml:id="note-0000001869917080"   dur="semibrevis" num="1" numbase="1" oct="4" pname="d" color="#000000" />
-                            <rest xml:id="rest-0000000040945186"   dur="minima" num="1" numbase="2" />
-                            <note xml:id="note-0000000916418216"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000"  />
-                            <note xml:id="note-0000001879132494"   dur="minima" num="3" numbase="4" oct="4" pname="f" color="#000000"  />
+                            <rest xml:id="rest-0000000040945186"   dur="minima" num="1" numbase="2" loc="0"/>
+                            <note xml:id="note-0000000916418216"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000001879132494"   dur="minima" num="3" numbase="4" oct="4" pname="f" color="#000000" stem.dir="up" />
                             <dot form="aug" />
-                            <note xml:id="note-0000001208346047"   dur="semiminima" num="1" numbase="4" oct="4" pname="g" color="#000000"  />
+                            <note xml:id="note-0000001208346047"   dur="semiminima" num="1" numbase="4" oct="4" pname="g" color="#000000" stem.dir="up" />
 
                             <note xml:id="note-0000001761900742"   dur="semibrevis" num="1" numbase="1" oct="4" pname="a" color="#000000" />
                             <note xml:id="note-0000000571642436"   dur="brevis" num="2" numbase="1" oct="4" pname="g" color="#000000" />
+                            <custos/>
 
                             <note xml:id="note-0000000651761038"   dur="semibrevis" num="1" numbase="1" oct="4" pname="f" color="#000000" />
-                            <note xml:id="note-0000001040984092"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000"  />
-                            <note xml:id="note-0000001865719546"   dur="minima" num="1" numbase="2" oct="4" pname="f" color="#000000"  />
-                            <note xml:id="note-0000001903253510"   dur="semiminima" num="1" numbase="4" oct="4" pname="e" color="#000000"  />
-                            <note xml:id="note-0000000441558296"   dur="semiminima" num="1" numbase="4" oct="4" pname="d" color="#000000"  />
-                            <note xml:id="note-0000001187652645"   dur="semiminima" num="1" numbase="4" oct="4" pname="c" color="#000000"  />
-                            <note xml:id="note-0000001364634471"   dur="semiminima" num="1" numbase="4" oct="3" pname="b" color="#000000"  />
+                            <note xml:id="note-0000001040984092"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000001865719546"   dur="minima" num="1" numbase="2" oct="4" pname="f" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000001903253510"   dur="semiminima" num="1" numbase="4" oct="4" pname="e" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000441558296"   dur="semiminima" num="1" numbase="4" oct="4" pname="d" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000001187652645"   dur="semiminima" num="1" numbase="4" oct="4" pname="c" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000001364634471"   dur="semiminima" num="1" numbase="4" oct="3" pname="b" color="#000000" stem.dir="up"  />
 
-                            <note xml:id="note-0000000324305667"   dur="minima" num="1" numbase="2" oct="3" pname="a" color="#000000"  />
-                            <note xml:id="note-0000000347794288"   dur="minima" num="3" numbase="4" oct="4" pname="d" color="#000000"  />
+                            <note xml:id="note-0000000324305667"   dur="minima" num="1" numbase="2" oct="3" pname="a" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000347794288"   dur="minima" num="3" numbase="4" oct="4" pname="d" color="#000000" stem.dir="up" />
                             <dot form="aug" />
-                            <note xml:id="note-0000001876274555"   dur="semiminima" num="1" numbase="4" oct="4" pname="e" color="#000000"  />
+                            <note xml:id="note-0000001876274555"   dur="semiminima" num="1" numbase="4" oct="4" pname="e" color="#000000" stem.dir="up" />
                             <note xml:id="note-0000000068743391"   dur="semibrevis" num="1" numbase="1" oct="4" pname="f" color="#000000" />
-                            <note xml:id="note-0000000555024435"   dur="semiminima" num="1" numbase="4" oct="4" pname="e" color="#000000"  />
-                            <note xml:id="note-0000000318531038"   dur="semiminima" num="1" numbase="4" oct="4" pname="d" color="#000000"  />
+                            <note xml:id="note-0000000555024435"   dur="semiminima" num="1" numbase="4" oct="4" pname="e" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000318531038"   dur="semiminima" num="1" numbase="4" oct="4" pname="d" color="#000000" stem.dir="up" />
 
-                            <note xml:id="note-0000000052083997"   dur="minima" num="1" numbase="2" oct="4" pname="e" color="#000000"  />
-                            <note xml:id="note-0000000014880153"   dur="minima" num="3" numbase="4" oct="4" pname="a" color="#000000"  />
+                            <note xml:id="note-0000000052083997"   dur="minima" num="1" numbase="2" oct="4" pname="e" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000014880153"   dur="minima" num="3" numbase="4" oct="4" pname="a" color="#000000" stem.dir="down" />
                             <dot form="aug" />
-                            <note xml:id="note-0000001850621319"   dur="semiminima" num="1" numbase="4" oct="4" pname="b" color="#000000"  />
+                            <note xml:id="note-0000001850621319"   dur="semiminima" num="1" numbase="4" oct="4" pname="b" color="#000000" stem.dir="down" />
                             <note xml:id="note-0000000132692282"   dur="semibrevis" num="1" numbase="1" oct="5" pname="c" color="#000000" />
-                            <note xml:id="note-0000001793536172"   dur="semiminima" num="1" numbase="4" oct="4" pname="b" color="#000000"  />
-                            <note xml:id="note-0000001186369693"   dur="semiminima" num="1" numbase="4" oct="4" pname="a" color="#000000"  />
+                            <note xml:id="note-0000001793536172"   dur="semiminima" num="1" numbase="4" oct="4" pname="b" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000001186369693"   dur="semiminima" num="1" numbase="4" oct="4" pname="a" color="#000000" stem.dir="down" />
+                            <custos/>
 
-                            <note xml:id="note-0000000070923133"   dur="minima" num="1" numbase="2" oct="4" pname="b" color="#000000"  />
-                            <note xml:id="note-0000001638059110"   dur="minima" num="1" numbase="2" oct="4" pname="g" color="#000000"  />
-                            <rest xml:id="rest-0000001926382586"   dur="minima" num="1" numbase="2" />
-                            <note xml:id="note-0000000493956377"   dur="minima" num="3" numbase="4" oct="4" pname="e" color="#000000"  />
+                            <note xml:id="note-0000000070923133"   dur="minima" num="1" numbase="2" oct="4" pname="b" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000001638059110"   dur="minima" num="1" numbase="2" oct="4" pname="g" color="#000000" stem.dir="up" />
+                            <rest xml:id="rest-0000001926382586"   dur="minima" num="1" numbase="2" loc="4"/>
+                            <note xml:id="note-0000000493956377"   dur="minima" num="3" numbase="4" oct="4" pname="e" color="#000000" stem.dir="up" />
                             <dot form="aug" />
-                            <note xml:id="note-0000000572742277"   dur="semiminima" num="1" numbase="4" oct="4" pname="f" color="#000000"  />
-                            <note xml:id="note-0000000104143664"   dur="minima" num="1" numbase="2" oct="4" pname="g" color="#000000"  />
+                            <note xml:id="note-0000000572742277"   dur="semiminima" num="1" numbase="4" oct="4" pname="f" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000104143664"   dur="minima" num="1" numbase="2" oct="4" pname="g" color="#000000" stem.dir="down" />
 
-                            <note xml:id="note-0000001184563573"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000"  />
-                            <note xml:id="note-0000001056492230"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000"  />
-                            <rest xml:id="rest-0000001287443611"   dur="minima" num="1" numbase="2" />
+                            <note xml:id="note-0000001184563573"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000001056492230"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="up" />
+                            <rest xml:id="rest-0000001287443611"   dur="minima" num="1" numbase="2" loc="2" />
                             <note xml:id="note-0000001216389742"   dur="semibrevis" num="1" numbase="1" oct="4" pname="g" color="#000000" />
-                            <note xml:id="note-0000000675860812"   dur="minima" num="1" numbase="2" oct="4" pname="e" color="#000000"  />
+                            <note xml:id="note-0000000675860812"   dur="minima" num="1" numbase="2" oct="4" pname="e" color="#000000" stem.dir="up" />
                             <!-- m15-->
-                            <note xml:id="note-0000000717578515" dots="1"   dur="minima" num="1" numbase="2" oct="4" pname="g" color="#000000"  />
-                            <note xml:id="note-0000000285021734"   dur="semiminima" num="1" numbase="4" oct="4" pname="f" color="#000000"  />
-                            <note xml:id="note-0000000638724161"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000"  />
+                            <note xml:id="note-0000000717578515"   dur="minima" num="3" numbase="4" oct="4" pname="g" color="#000000" stem.dir="up" />
+                            <dot form="aug"/>
+                            <note xml:id="note-0000000285021734"   dur="semiminima" num="1" numbase="4" oct="4" pname="f" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000638724161"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="up" />
                             <note xml:id="note-0000000327224049"   dur="semibrevis" num="1" numbase="1" oct="4" pname="e" color="#000000" />
                             <note xml:id="note-0000000697588532"   dur="semibrevis" num="1" numbase="1" oct="4" pname="d" color="#000000"  />
 
-                            <note xml:id="note-0000000250176197"   dur="minima" num="1" numbase="2" oct="4" pname="c" color="#000000" >
-                                <accid xml:id="accid-0000000209955707" accid="s" accid.ges="s" />
-                                <!-- FICTA HERE HOW?????-->
+                            <note xml:id="note-0000000250176197"   dur="minima" num="1" numbase="2" oct="4" pname="c" color="#000000" stem.dir="up" >
+                                <!--<accid xml:id="accid-0000000209955707" accid="s" accid.ges="s" loc="10" />
+                                 FICTA HERE HOW?????-->
                             </note>
-                            <note xml:id="note-0000000588512803"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000"  />
+                            <note xml:id="note-0000000588512803"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="up" />
                             <note xml:id="note-0000001002500919"   dur="semibrevis" num="1" numbase="1" oct="4" pname="a" color="#000000" />
-                            <note xml:id="note-0000002126416943"   dur="minima" num="1" numbase="2" oct="4" pname="g" color="#000000"  />
+                            <note xml:id="note-0000002126416943"   dur="minima" num="1" numbase="2" oct="4" pname="g" color="#000000" stem.dir="up" />
 
-                            <note xml:id="note-0000001914012673"   dur="minima" num="1" numbase="2" oct="4" pname="f" color="#000000"  />
-                            <note xml:id="note-0000001353415065"   dur="minima" num="1" numbase="2" oct="4" pname="e" color="#000000"  />
-                            <note xml:id="note-0000000529876202"   dur="minima" num="1" numbase="2" oct="4" pname="f" color="#000000"  />
-                            <note xml:id="note-0000000868182480"   dur="minima" num="1" numbase="2" oct="4" pname="e" color="#000000"  />
-                            <note xml:id="note-0000002132790883"   dur="minima" num="1" numbase="2" oct="4" pname="f" color="#000000"  />
-                            <note xml:id="note-0000000792852893"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000"  />
+                            <note xml:id="note-0000001914012673"   dur="minima" num="1" numbase="2" oct="4" pname="f" color="#000000" stem.dir="up"  />
+                            <note xml:id="note-0000001353415065"   dur="minima" num="1" numbase="2" oct="4" pname="e" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000529876202"   dur="minima" num="1" numbase="2" oct="4" pname="f" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000868182480"   dur="minima" num="1" numbase="2" oct="4" pname="e" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000002132790883"   dur="minima" num="1" numbase="2" oct="4" pname="f" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000792852893"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="up" />
 
-                            <note xml:id="note-0000001008338986" dots="1"   dur="longa" num="6" numbase="1" oct="4" pname="e" color="#000000" />
-
+                            <note xml:id="note-0000001008338986" dots="1"   dur="longa" num="6" numbase="1" oct="4" pname="e" color="#000000" stem.dir="up" />
+<barLine form="dbl"/>
                           </layer>
                       </staff>
                       <!-- ALTUS -->
