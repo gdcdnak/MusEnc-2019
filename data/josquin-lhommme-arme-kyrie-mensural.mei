@@ -428,11 +428,12 @@
 
                               </layer>
                           </staff>
+                      </measure>
+                  </section>
+                </lem>
 
-            <!--            <measure xml:id="measure-0000002050692355" right="dbl" n="18"> -->
-</measure>
-                    </section>
-                    </lem>
+
+  <!-- Common Music Notaion -->
                     <rdg source="#CMN">
                       <scoreDef xml:id="scoredef-0000002056545718">
                           <staffGrp xml:id="staffgrp-0000000015562865">
@@ -451,8 +452,7 @@
                           </staffGrp>
                       </scoreDef>
                       <section xml:id="section-0000001085798996">
-                          <pb xml:id="pb-0000001940408529" />
-                          <pb xml:id="pb-0000001696184994" />
+
                           <measure xml:id="measure-0000001635402634" n="1">
                               <staff xml:id="staff-0000001613901793" n="1">
                                   <layer xml:id="layer-0000001419175433" n="1">
@@ -475,27 +475,7 @@
                                       <note xml:id="note-0000001909759461" dots="1"   dur="breve" oct="3" pname="d" color="#000000" />
                                   </layer>
                               </staff>
-                              <dir xml:id="dir-0000001891735681" staff="1" startid="#mrest-0000000559151935">
-                                  <rend xml:id="rend-0000001122112359" fontfam="Times" fontstyle="italic" fontweight="normal">MenCircle</rend>
-                              </dir>
-                              <dir xml:id="dir-0000000879643843" staff="2" startid="#note-0000002112652019">
-                                  <rend xml:id="rend-0000000814171240" fontfam="Times" fontstyle="italic" fontweight="normal">MenCircle</rend>
-                              </dir>
-                              <dir xml:id="dir-0000000615830621" staff="3" startid="#mrest-0000000362265365">
-                                  <rend xml:id="rend-0000001211759266" fontfam="Times New Roman" fontstyle="italic" fontweight="normal">barlines:3</rend>
-                              </dir>
-                              <dir xml:id="dir-0000000283124389" staff="3" startid="#mrest-0000000362265365">
-                                  <rend xml:id="rend-0000002011860765" fontfam="Times" fontstyle="italic" fontweight="normal">MenCircleDot</rend>
-                              </dir>
-                              <dir xml:id="dir-0000000748963362" staff="3" startid="#mrest-0000000362265365">
-                                  <rend xml:id="rend-0000001995330723" fontfam="Times" fontstyle="italic" fontweight="normal">rscale:1/2</rend>
-                              </dir>
-                              <dir xml:id="dir-0000001235269192" staff="3" startid="#mrest-0000000362265365">
-                                  <rend xml:id="rend-0000000928596031" fontfam="Times" fontstyle="normal" fontweight="normal">Mensuration canon at upper ninth</rend>
-                              </dir>
-                              <dir xml:id="dir-0000001847733919" staff="4" startid="#note-0000001909759461">
-                                  <rend xml:id="rend-0000001169746845" fontfam="Times" fontstyle="italic" fontweight="normal">MenCircle</rend>
-                              </dir>
+
                           </measure>
                           <measure xml:id="measure-0000000077345237" n="2">
                               <staff xml:id="staff-0000002141989293" n="1">
@@ -1098,14 +1078,11 @@
                                   </layer>
                               </staff>
                           </measure>
-                      </section>
-
-
-
-                    </rdg>
-                    </app>
-                </score>
-            </mdiv>
-        </body>
-    </music>
-</mei>
+                          </section>
+                          </rdg>
+                          </app>
+                          </score>
+                          </mdiv>
+                          </body>
+                          </music>
+                          </mei>
