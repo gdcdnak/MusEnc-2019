@@ -47,24 +47,26 @@
                           <layer  n="1">
                             <rest dur="longa" num="6" numbase="1" loc="2" />
                             <note dur="semibrevis" num="1" numbase="1" pname="d" oct="4" />
-                            <note dur="minima" num="1" numbase="2" pname="d" oct="4" />
+                            <note dur="minima" num="1" numbase="2" pname="d" oct="4" stem.dir="up"/>
                             <note dur="semibrevis" num="1" numbase="1" pname="g" oct="4" />
-                            <note dur="minima" num="1" numbase="2" pname="g" oct="4" />
-                            <note dur="minima" num="1" numbase="2" pname="f" oct="4" />
+                            <note dur="minima" num="1" numbase="2" pname="g" oct="4" stem.dir="up"/>
+                            <note dur="minima" num="1" numbase="2" pname="f" oct="4" stem.dir="up"/>
                             <note dur="semibrevis" num="1" numbase="1" pname="e" oct="4" />
-                            <note dur="minima" num="1" numbase="2" pname="d" oct="4" />
+                            <note dur="minima" num="1" numbase="2" pname="d" oct="4" stem.dir="up"/>
                             <note dur="semibrevis" num="1" numbase="1" pname="e" oct="4" />
                             <!-- m5 -->
                             <note dur="semibrevis" num="1" numbase="1" pname="d" oct="4" />
 
 
-                            <rest xml:id="rest-0000001338075857"   dur="minima" num="1" numbase="2" />
-                            <note xml:id="note-0000000944350871"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000"  />
-                            <note xml:id="note-0000000217283362"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000"  />
-                            <note xml:id="note-0000001140036789"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000"  />
-                            <rest xml:id="rest-0000001938637331"   dur="minima" num="1" numbase="2" />
+                            <rest xml:id="rest-0000001338075857"   dur="minima" num="1" numbase="2" loc="1" />
+                            <note xml:id="note-0000000944350871"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000000217283362"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000001140036789"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="up" />
+                            <rest xml:id="rest-0000001938637331"   dur="minima" num="1" numbase="2" loc="1"/>
                             <note xml:id="note-0000001325417231"   dur="semibrevis" num="1" numbase="1" oct="4" pname="a" color="#000000" />
-                            <note xml:id="note-0000000619636875"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000"  />
+                            <note xml:id="note-0000000619636875"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
+                            <custos/>
+
                             <note xml:id="note-0000000944833916"   dur="minima" num="3" numbase="4" oct="4" pname="a" color="#000000"  />
                             <dot form="aug" />
                             <note xml:id="note-0000002142721892"   dur="semiminima" num="1" numbase="4" oct="4" pname="g" color="#000000"  />
