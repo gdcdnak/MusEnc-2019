@@ -11,17 +11,12 @@
                   <resp>Encoded by</resp>
                   <resp>Debra Nakos</resp>
                 </respStmt>
-
-            </titleStmt>
-            <editionStmt>
-
-                <edition></edition>
-            </editionStmt>
-
-            <pubStmt></pubStmt>
+                </titleStmt>
+                <pubStmt>
+                </pubStmt>
             <sourceDesc>
-              <source xml:id="White" />
-              <source xml:id="CMN" />
+              <source xml:id="White"></source>
+              <source xml:id="CMN"></source>
             </sourceDesc>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000000050656959">
