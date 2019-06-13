@@ -222,8 +222,8 @@
                                 <custos/>
 
                                 <ligature form="recta">
-                                <note xml:id="note-0000000817086169"   dur="brevis" num="1" numbase="1" oct="3" pname="f" color="#000000" stem.dir="up" />
-                                <note xml:id="note-0000000269081186"   dur="brevis" num="1" numbase="1" oct="3" pname="g" color="#000000" />
+                                <note xml:id="note-0000000817086169"   dur="semibrevis" num="1" numbase="1" oct="3" pname="f" color="#000000" stem.dir="up" />
+                                <note xml:id="note-0000000269081186"   dur="semibrevis" num="1" numbase="1" oct="3" pname="g" color="#000000" />
                                 </ligature>
                                 <note xml:id="note-0000001824816734"   dur="semibrevis" num="3" numbase="2" oct="3" pname="f" color="#000000" />
                                 <dot form="aug"/>
