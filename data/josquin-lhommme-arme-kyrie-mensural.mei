@@ -4,8 +4,20 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Missa L'homme arme super voces musicale ..</title>
+                <title>Missa L'homme arme super voces musicale ...</title>
+                <author></author>
+                <composer>Josquin des Prez</composer>
+                <respStmt>
+                  <resp>Encoded by</resp>
+                  <resp>Debra Nakos</resp>
+                </respStmt>
+
             </titleStmt>
+            <editionStmt>
+
+                <edition></edition>
+            </editionStmt>
+
             <pubStmt></pubStmt>
             <sourceDesc>
               <source xml:id="Duguid" />
@@ -374,7 +386,7 @@
 
                                 <ligature form="recta">
                                   <note xml:id="note-0000000982913273"  dur="semibrevis"  num="1" numbase="1" oct="3" pname="f" color="#000000" stem.dir="up" stem.pos="left" />
-                                  <note xml:id="note-0000001361830828"  dur="brevis" num="2" numbase="1" oct="2" pname="b" color="#000000" />
+                                  <note xml:id="note-0000001361830828"  dur="semibrevis" num="2" numbase="1" oct="2" pname="b" color="#000000" />
                                 </ligature>
 
                                 <note xml:id="note-0000000573431954"   dur="brevis" num="2" numbase="1" oct="2" pname="a" color="#000000" />
