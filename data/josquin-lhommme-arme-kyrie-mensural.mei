@@ -4,7 +4,7 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Missa L'homme arme super voces musicale</title>
+                <title>Missa L'homme arme super voces musicale .</title>
             </titleStmt>
             <pubStmt></pubStmt>
             <sourceDesc>
@@ -372,9 +372,9 @@
                                 <note xml:id="note-0000001476188115"   dur="semibrevis" num="1" numbase="1" oct="3" pname="e" color="#000000" />
                                 <custos/>
 
-                                <ligature>
-                                  <note xml:id="note-0000000982913273"   num="1" numbase="1" oct="3" pname="f" color="#000000" lig="recta" stem.dir="up" stem.pos="left" />
-                                  <note xml:id="note-0000001361830828"   num="2" numbase="1" oct="2" pname="b" color="#000000" lig="recta"/>
+                                <ligature form="recta">
+                                  <note xml:id="note-0000000982913273"   num="1" numbase="1" oct="3" pname="f" color="#000000" stem.dir="up" stem.pos="left" />
+                                  <note xml:id="note-0000001361830828"   num="2" numbase="1" oct="2" pname="b" color="#000000" />
                                 </ligature>
 
                                 <note xml:id="note-0000000573431954"   dur="brevis" num="2" numbase="1" oct="2" pname="a" color="#000000" />
