@@ -58,7 +58,6 @@
                             <!-- m5 -->
                             <note dur="semibrevis" num="1" numbase="1" pname="d" oct="4" />
 
-
                             <rest xml:id="rest-0000001338075857"   dur="minima" num="1" numbase="2" loc="0" />
                             <note xml:id="note-0000000944350871"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
                             <note xml:id="note-0000000217283362"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
