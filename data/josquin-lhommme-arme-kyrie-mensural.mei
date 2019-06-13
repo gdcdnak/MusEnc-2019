@@ -199,7 +199,7 @@
                                 <note xml:id="note-0000000446385749"   dur="minima" num="1" numbase="2" oct="3" pname="b" color="#000000" stem.dir="down" />
                                 <custos/>
 
-                                <note xml:id="note-0000001720138701"   dur="minima" num="1" numbase="3" oct="2" pname="a" color="#000000" stem.dir="up" />
+                                <note xml:id="note-0000001720138701"   dur="minima" num="1" numbase="3" oct="3" pname="a" color="#000000" stem.dir="up" />
                                 <note xml:id="note-0000000450454076" dots="1"   dur="minima" num="3" numbase="4" oct="4" pname="e" color="#000000" stem.dir="down" />
                                 <dot form="aug"/>
                                 <note xml:id="note-0000000791313845"   dur="semiminima" num="1" numbase="4" oct="4" pname="d" color="#000000" stem.dir="down" />
@@ -222,7 +222,7 @@
                                 <custos/>
 
                                 <ligature form="recta">
-                                <note xml:id="note-0000000817086169"   dur="semibrevis" num="1" numbase="1" oct="3" pname="f" color="#000000" stem.dir="up" />
+                                <note xml:id="note-0000000817086169"   stem.pos="left" stem.dir="up" dur="semibrevis" num="1" numbase="1" oct="3" pname="f" color="#000000" stem.dir="up" />
                                 <note xml:id="note-0000000269081186"   dur="semibrevis" num="1" numbase="1" oct="3" pname="g" color="#000000" />
                                 </ligature>
                                 <note xml:id="note-0000001824816734"   dur="semibrevis" num="3" numbase="2" oct="3" pname="f" color="#000000" />
