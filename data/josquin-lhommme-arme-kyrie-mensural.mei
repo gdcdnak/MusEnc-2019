@@ -314,8 +314,8 @@
                           <staff  n="4">
                               <layer  n="1">
                                   <ligature form="recta">
-                                    <note dur="brevis" pname="d" oct="3" num="3" numbase="1"/>
-                                    <note dur="brevis" pname="g" oct="3" num="2" numbase="1" />
+                                    <note pname="d" oct="3" num="3" numbase="1"/>
+                                    <note pname="g" oct="3" num="2" numbase="1" />
                                 </ligature>
                                 <note dur="semibrevis" pname="g" oct="3" num="1" numbase="1" />
                                 <note dur="minima" pname="f" oct="3" num="1" numbase="2" stem.dir="down"/>
@@ -373,8 +373,8 @@
                                 <custos/>
 
                                 <ligature>
-                                  <note xml:id="note-0000000982913273"   dur="semibrevis" num="1" numbase="1" oct="3" pname="f" color="#000000" lig="recta" stem.dir="up" stem.pos="left" />
-                                  <note xml:id="note-0000001361830828"   dur="brevis" num="2" numbase="1" oct="2" pname="b" color="#000000" lig="recta"/>
+                                  <note xml:id="note-0000000982913273"   num="1" numbase="1" oct="3" pname="f" color="#000000" lig="recta" stem.dir="up" stem.pos="left" />
+                                  <note xml:id="note-0000001361830828"   num="2" numbase="1" oct="2" pname="b" color="#000000" lig="recta"/>
                                 </ligature>
 
                                 <note xml:id="note-0000000573431954"   dur="brevis" num="2" numbase="1" oct="2" pname="a" color="#000000" />
