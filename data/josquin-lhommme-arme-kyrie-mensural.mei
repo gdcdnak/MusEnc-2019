@@ -32,8 +32,8 @@
         <body>
             <mdiv xml:id="mdiv-0000000414289607" n="1">
               <score >
-                <app>
-                  <lem source="#White">
+                <!--<app>
+                  <lem source="#White">-->
                   <scoreDef xml:id="scoredef-1000002056545718">
                       <staffGrp xml:id="staffgrp-1001">
                           <staffDef xml:id="staffdef-1001" mensur.sign="O" mensur.loc="3" clef.shape="C" clef.line="1" n="1" lines="5">
@@ -425,10 +425,10 @@
                           </staff>
                       </measure>
                   </section>
-                </lem>
+              <!--  </lem>
 
 
-<rdg></rdg>
+<rdg></rdg> -->
   <!-- Common Music Notaion -->
   <!--
                     <rdg source="#CMN">
@@ -1077,8 +1077,8 @@
                           </measure>
                           </section>
                           </rdg>
-                        -->
-                          </app>
+
+                          </app>-->
                           </score>
                           </mdiv>
                           </body>
