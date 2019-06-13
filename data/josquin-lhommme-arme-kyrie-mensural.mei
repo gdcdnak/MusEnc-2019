@@ -156,6 +156,7 @@
                             <note xml:id="note-0000001008338986" dots="1"   dur="longa" num="6" numbase="1" oct="4" pname="e" color="#000000" stem.dir="up" />
 <barLine form="dbl" control="true"/>
                           </layer>
+
                       </staff>
                       <!-- ALTUS -->
                           <staff  n="2">
@@ -275,52 +276,39 @@
                           <staff n="3">
                               <layer  n="1">
                                 <rest dur="longa" num="18" numbase="1" loc="2" />
-                                <note dur="semibrevis" num="4" numbase="1" pname="c" oct="3" />
-                                <note dur="minima" num="2" numbase="1" pname="c" oct="3" />
-                                <note dur="semibrevis" num="6" numbase="1" pname="f" oct="3" />
-                                <note dur="minima" num="2" numbase="1" pname="f" oct="3" />
-                                <note dur="minima" num="4" numbase="1" pname="e" oct="3" />
-                                <note dur="semibrevis" num="4" numbase="1" pname="d" oct="3" />
-                                <note dur="minima" num="2" numbase="1" pname="c" oct="3" />
-                                <note dur="semibrevis" num="6" numbase="1" pname="d" oct="3" />
-                                <note dur="semibrevis" num="4" numbase="1" pname="c" oct="3" />
+                                <note dur="semibrevis" num="2" numbase="1" pname="c" oct="3" />
+                                <note dur="minima" num="1" numbase="1" pname="c" oct="3" stem.dir="up"/>
+                                <note dur="semibrevis" num="3" numbase="1" pname="f" oct="3" />
+                                <note dur="minima" num="1" numbase="1" pname="f" oct="3" stem.dir="up" />
+                                <note dur="minima" num="2" numbase="1" pname="e" oct="3" stem.dir="up" />
+                                <note dur="semibrevis" num="2" numbase="1" pname="d" oct="3" />
+                                <note dur="minima" num="1" numbase="1" pname="c" oct="3" stem.dir="up"/>
+                                <note dur="semibrevis" num="3" numbase="1" pname="d" oct="3" />
+                                <note dur="semibrevis" num="2" numbase="1" pname="c" oct="3" />
+                                <rest dur="minima" num="1" numbase="1" loc="4"></rest>
 
+                                  <note xml:id="note-0000000166022529"   dur="semibrevis" num="1" numbase="1" oct="3" pname="g" color="#000000" stem.dir="down" />
+                                  <custos/>
 
-
-                                <mRest xml:id="mrest-0000002101447419" />
-                                  <mRest xml:id="mrest-0000001847699395" />
-                                  <mRest xml:id="mrest-0000001649053699" />
-                                  <mRest xml:id="mrest-0000000385752224" />
-                                  <mRest xml:id="mrest-0000002120106954" />
-                                  <mRest xml:id="mrest-0000001230342790" />
-                                  <note xml:id="note-0000000653465793"   dur="brevis" num="3" numbase="1" oct="2" pname="c" color="#000000" />
-                                  <note xml:id="note-0000000865161639"   dur="semibrevis" num="1" numbase="1" oct="2" pname="c" color="#000000" />
-                                  <note xml:id="note-0000000804974036" dots="1"   dur="brevis" num="3" numbase="1" oct="2" pname="f" color="#000000" />
-                                  <note xml:id="note-0000002065759749"   dur="semibrevis" num="1" numbase="1" oct="2" pname="f" color="#000000" />
-                                  <note xml:id="note-0000001542171771"   dur="brevis" num="3" numbase="1" oct="2" pname="e" color="#000000" />
-                                  <note xml:id="note-0000001843510002"   dur="brevis" num="3" numbase="1" oct="2" pname="d" color="#000000" />
-                                  <note xml:id="note-0000000996838122"   dur="semibrevis" num="1" numbase="1" oct="2" pname="c" color="#000000" />
-                                  <note xml:id="note-0000000692805709" dots="1"   dur="brevis" num="3" numbase="1" oct="2" pname="d" color="#000000" />
-                                  <note xml:id="note-0000000908128112"   dur="brevis" num="3" numbase="1" oct="2" pname="c" color="#000000" />
-                                  <rest xml:id="rest-0000001048186410"   dur="semibrevis" num="1" numbase="1" />
-                                  <note xml:id="note-0000000166022529"   dur="semibrevis" num="1" numbase="1" oct="2" pname="g" color="#000000" />
-                                  <note xml:id="note-0000001425764799"   dur="semibrevis" num="1" numbase="1" oct="2" pname="g" color="#000000" />
-                                  <note xml:id="note-0000001130058574"   dur="semibrevis" num="1" numbase="1" oct="2" pname="c" color="#000000" />
-                                  <rest xml:id="rest-0000000983661664"   dur="semibrevis" num="1" numbase="1" />
-                                  <note xml:id="note-0000001043664826"   dur="brevis" num="3" numbase="1" oct="2" pname="g" color="#000000" />
-                                  <note xml:id="note-0000000347698956"   dur="semibrevis" num="1" numbase="1" oct="2" pname="g" color="#000000" />
-                                  <note xml:id="note-0000000927432188" dots="1"   dur="semibrevis" num="1" numbase="1" oct="2" pname="g" color="#000000" />
-                                  <note xml:id="note-0000000226616236"   dur="minima" num="1" numbase="2" oct="2" pname="f" color="#000000"  />
-                                  <note xml:id="note-0000001520590565"   dur="semibrevis" num="1" numbase="1" oct="2" pname="g" color="#000000" />
-                                  <note xml:id="note-0000001605842759" dots="1"   dur="semibrevis" num="1" numbase="1" oct="2" pname="f" color="#000000" />
-                                  <note xml:id="note-0000000261261349"   dur="minima" num="1" numbase="2" oct="2" pname="e" color="#000000"  />
-                                  <note xml:id="note-0000000393397450"   dur="minima" num="1" numbase="2" oct="2" pname="d" color="#000000"  />
-                                  <note xml:id="note-0000001626871817"   dur="minima" num="1" numbase="2" oct="2" pname="c" color="#000000"  />
-                                  <note xml:id="note-0000001192594873"   dur="minima" num="1" numbase="2" oct="2" pname="d" color="#000000"  />
-                                  <note xml:id="note-0000000022285593"   dur="minima" num="1" numbase="2" oct="2" pname="c" color="#000000"  />
-                                  <note xml:id="note-0000000359124465"   dur="semibrevis" num="1" numbase="1" oct="2" pname="d" color="#000000" />
-                                  <note xml:id="note-0000001973872464" dots="1"   dur="brevis" num="3" numbase="1" oct="2" pname="c" color="#000000" />
-
+                                  <note xml:id="note-0000001425764799"   dur="semibrevis" num="1" numbase="1" oct="3" pname="g" color="#000000"  stem.dir="down"/>
+                                  <note xml:id="note-0000001130058574"   dur="semibrevis" num="1" numbase="1" oct="3" pname="c" color="#000000" stem.dir="up"/>
+                                  <rest xml:id="rest-0000000983661664"   dur="semibrevis" num="1" numbase="1" loc="4"/>
+                                  <note xml:id="note-0000001043664826"   dur="brevis" num="2" numbase="1" oct="3" pname="g" color="#000000" />
+                                  <note xml:id="note-0000000347698956"   dur="semibrevis" num="1" numbase="1" oct="3" pname="g" color="#000000" stem.dir="down"/>
+                                  <note xml:id="note-0000000927432188"   dur="semibrevis" num="3" numbase="2" oct="3" pname="g" color="#000000" stem.dir="down" />
+                                  <dot form="aug"/>
+                                  <note xml:id="note-0000000226616236"   dur="minima" num="1" numbase="2" oct="3" pname="f" color="#000000" stem.dir="up" />
+                                  <note xml:id="note-0000001520590565"   dur="semibrevis" num="1" numbase="1" oct="3" pname="g" color="#000000" stem.dir="down" />
+                                  <note xml:id="note-0000001605842759"   dur="semibrevis" num="3" numbase="2" oct="3" pname="f" color="#000000" stem.dir="up"/>
+                                  <dot form="aug"/>
+                                  <note xml:id="note-0000000261261349"   dur="minima" num="1" numbase="2" oct="3" pname="e" color="#000000" stem.dir="up" />
+                                  <note xml:id="note-0000000393397450"   dur="minima" num="1" numbase="2" oct="3" pname="d" color="#000000" stem.dir="up" />
+                                  <note xml:id="note-0000001626871817"   dur="minima" num="1" numbase="2" oct="3" pname="c" color="#000000" stem.dir="up" />
+                                  <note xml:id="note-0000001192594873"   dur="minima" num="1" numbase="2" oct="3" pname="d" color="#000000" stem.dir="up" />
+                                  <note xml:id="note-0000000022285593"   dur="minima" num="1" numbase="2" oct="3" pname="c" color="#000000" stem.dir="up" />
+                                  <note xml:id="note-0000000359124465"   dur="semibrevis" num="1" numbase="1" oct="3" pname="d" color="#000000" stem.dir="up"/>
+                                  <note xml:id="note-0000001973872464"   dur="longa" num="3" numbase="1" oct="3" pname="c" color="#000000" stem.dir="up" />
+<barLine form="dbl"/>
                               </layer>
                           </staff>
                         <!-- BASSUS -->
@@ -419,7 +407,7 @@
                                 <note xml:id="note-0000000619726598"   dur="minima" num="1" numbase="2" oct="3" pname="g" color="#000000"  />
                                 <note xml:id="note-0000000223082686" dots="1"   dur="brevis" num="3" numbase="1" oct="3" pname="a" color="#000000" />
                                 <note xml:id="note-0000001650880192" dots="1"   dur="brevis" num="3" numbase="1" oct="2" pname="a" color="#000000" />
-
+<barLine form="dbl"/>
 
                               </layer>
                           </staff>
