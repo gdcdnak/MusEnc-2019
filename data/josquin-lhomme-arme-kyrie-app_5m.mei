@@ -59,46 +59,43 @@
 <!-- MEASURE 1 -->
                   <app>
                     <lem source="#White">
-                      <measure right="invis" >
-
+                      <measure xml:id="measure-100001"  right="invis" >
                       <!-- SUPERIUS -->
-                        <staff  n="1">
-                            <layer  n="1">
-                              <mensur sign="O" loc="3" />
-                              <clef shape="C" line="1" />
-                              <rest dur="longa" num="6" numbase="1" loc="2" />
+                        <staff xml:id="staff-1000011" n="1">
+                            <layer xml:id="layer-1000011"  n="1">
+                              <mensur xml:id="mensur-100011" sign="O" loc="3" />
+                              <clef xml:id="clef-1000011" shape="C" line="1" />
+                              <rest xml:id="rest-1000011" dur="longa" num="6" numbase="1" loc="2" />
                             </layer>
                         </staff>
                       <!-- ALTUS -->
-                        <staff  n="2">
-                          <layer  n="1">
-                            <mensur sign="O" loc="3" />
-                            <clef shape="C" line="4" />
-                            <note dur="brevis" num="2" numbase="1" pname="d" oct="4" />
-                            <note dur="semibrevis" num="1" numbase="1" pname="f" oct="4" />
+                        <staff xml:id="staff-1000012"  n="2">
+                          <layer xml:id="layer-1000012" n="1">
+                            <mensur xml:id="mensur-100012" sign="O" loc="3" />
+                            <clef xml:id="clef-1000012" shape="C" line="4" />
+                            <note xml:id="note-10000121" dur="brevis" num="2" numbase="1" pname="d" oct="4" />
+                            <note xml:id="note-10000122" dur="semibrevis" num="1" numbase="1" pname="f" oct="4" />
                           </layer>
                       </staff>
                       <!-- TENOR -->
-                          <staff n="3">
-                              <layer  n="1">
-                                <mensur sign="O" loc="3" dot="true" />
-                                <clef shape="F" line="3" />
+                          <staff xml:id="staff-1000013" n="3">
+                              <layer xml:id="layer-1000013"  n="1">
+                                <mensur xml:id="mensur-100013"  sign="O" loc="3" dot="true" />
+                                <clef xml:id="clef-1000013" shape="F" line="3" />
                                 <!-- M1 -M6-->
-                                <rest dur="longa" num="18" numbase="1" loc="2" />
-
+                                <rest xml:id="rest-10000131" dur="longa" num="18" numbase="1" loc="2" />
                               </layer>
                           </staff>
                           <!-- BASSUS -->
-                            <staff  n="4">
-
-                                <layer  n="1">
-                                  <mensur sign="O" loc="3" />
-                                  <clef shape="F" line="4" />
+                            <staff xml:id="staff-1000014" n="4">
+                                <layer xml:id="layer-1000014"  n="1">
+                                  <mensur xml:id="mensur-100014" sign="O" loc="3" />
+                                  <clef xml:id="clef-1000014" shape="F" line="4" />
                                   <!-- M1-2 -->
-                                    <ligature form="recta">
-                                      <note dur="brevis" pname="d" oct="3" num="3" numbase="1"/>
+                                    <ligature xml:id="lig-1000014"  form="recta">
+                                      <note xml:id="note-10000141" dur="brevis" pname="d" oct="3" num="3" numbase="1"/>
                                                                       <!-- M2 -->
-                                      <note dur="brevis" pname="g" oct="3" num="2" numbase="1" />
+                                      <note xml:id="note-10000142" dur="brevis" pname="g" oct="3" num="2" numbase="1" />
                                       </ligature>
                                     </layer>
                                 </staff>
@@ -141,350 +138,328 @@
 
 
                   <!-- MEASURE 2 -->
-                                    <app>
-                                      <lem source="#White">
-                                        <measure right="invis" >
-                                        <!-- SUPERIUS -->
-                                          <staff  n="1">
-                                              <layer  n="1">
+          <app>
+            <lem source="#White">
+              <measure xml:id="measure-100002" right="invis" >
+              <!-- SUPERIUS -->
+                <staff  xml:id="staff-1000021" n="1">
+                    <layer xml:id="layer-1000021" n="1">
+                    </layer>
+                </staff>
+              <!-- ALTUS -->
+                <staff xml:id="staff-1000022"  n="2">
+                  <layer xml:id="layer-1000022"  n="1">
+                    <note xml:id="note-10000221" dur="minima" num="1" numbase="2" pname="e" oct="4" stem.dir="down"/>
+                    <note xml:id="note-10000222" dur="semibrevis" num="1" numbase="1" pname="d" oct="4" />
+                    <note xml:id="note-10000223"  dur="minima" num="1" numbase="2" pname="c" oct="4" stem.dir="down" />
+                    <note xml:id="note-10000224" dur="semibrevis" num="1" numbase="1" pname="b" oct="3" />
+                  </layer>
+              </staff>
+              <!-- TENOR -->
+              <staff xml:id="staff-1000023" n="3">
+                  <layer xml:id="layer-1000023" n="1">
+                  <!-- M1 -M6-->
+                  </layer>
+              </staff>
+            <!-- BASSUS -->
+              <staff xml:id="staff-1000024" n="4">
+                  <layer xml:id="layer-1000024" n="1">
+                <!-- M1-2 -->
+                <note xml:id="note-10000241" dur="semibrevis" pname="g" oct="3" num="1" numbase="1" />
+                  </layer>
+                </staff>
+              </measure>
+            </lem>
+            <rdg source="#CMN">
+              <measure xml:id="measure-0000000077345237" n="2">
+                  <staff xml:id="staff-0000002141989293" n="1">
+                      <layer xml:id="layer-0000000529649877" n="1">
+                          <mRest xml:id="mrest-0000000153512601" />
+                      </layer>
+                  </staff>
+                  <staff xml:id="staff-0000000127942822" n="2">
+                      <layer xml:id="layer-0000000626663454" n="1">
+                          <note xml:id="note-0000001856124980" dur="2" oct="3" pname="e" color="#000000" stem.dir="down" />
+                          <note xml:id="note-0000000486038937"  dur="1" oct="3" pname="d" color="#000000" />
+                          <note xml:id="note-0000001764167900"  dur="2" oct="3" pname="c" color="#000000" stem.dir="down" />
+                          <note xml:id="note-0000001258199455"  dur="1" oct="2" pname="b" color="#000000" />
+                      </layer>
+                  </staff>
+                  <staff xml:id="staff-0000001129008714" n="3">
+                      <layer xml:id="layer-0000001251295643" n="1">
+                          <mRest xml:id="mrest-0000000681722810" />
+                      </layer>
+                  </staff>
+                  <staff xml:id="staff-0000001833103932" n="4">
+                      <layer xml:id="layer-0000000365408067" n="1">
+                          <note xml:id="note-0000002145267481"  dur="breve" oct="3" pname="g" color="#000000" />
+                          <note xml:id="note-0000000908015775"  dur="1" oct="3" pname="g" color="#000000" />
+                      </layer>
+                  </staff>
+              </measure>
+            </rdg>
+          </app>
 
-                                              </layer>
-                                          </staff>
-                                        <!-- ALTUS -->
-                                          <staff  n="2">
-                                            <layer  n="1">
-                                              <note dur="minima" num="1" numbase="2" pname="e" oct="4" stem.dir="down"/>
-                                              <note dur="semibrevis" num="1" numbase="1" pname="d" oct="4" />
-                                              <note dur="minima" num="1" numbase="2" pname="c" oct="4" stem.dir="down" />
-                                              <note dur="semibrevis" num="1" numbase="1" pname="b" oct="3" />
-
-                                            </layer>
-                                        </staff>
-                                        <!-- TENOR -->
-                                            <staff n="3">
-                                                <layer  n="1">
-                                                  <!-- M1 -M6-->
-
-
-                                                </layer>
-                                            </staff>
-                                            <!-- BASSUS -->
-                                              <staff  n="4">
-                                                  <layer  n="1">
-                                                    <!-- M1-2 -->
-
-                                <note dur="semibrevis" pname="g" oct="3" num="1" numbase="1" />
-                                                      </layer>
-                                                  </staff>
-                                        </measure>
-                                      </lem>
-                                      <rdg source="#CMN">
-                                        <measure xml:id="measure-0000000077345237" n="2">
-                                            <staff xml:id="staff-0000002141989293" n="1">
-                                                <layer xml:id="layer-0000000529649877" n="1">
-                                                    <mRest xml:id="mrest-0000000153512601" />
-                                                </layer>
-                                            </staff>
-                                            <staff xml:id="staff-0000000127942822" n="2">
-                                                <layer xml:id="layer-0000000626663454" n="1">
-                                                    <note xml:id="note-0000001856124980" dur="2" oct="3" pname="e" color="#000000" stem.dir="down" />
-                                                    <note xml:id="note-0000000486038937"  dur="1" oct="3" pname="d" color="#000000" />
-                                                    <note xml:id="note-0000001764167900"  dur="2" oct="3" pname="c" color="#000000" stem.dir="down" />
-                                                    <note xml:id="note-0000001258199455"  dur="1" oct="2" pname="b" color="#000000" />
-                                                </layer>
-                                            </staff>
-                                            <staff xml:id="staff-0000001129008714" n="3">
-                                                <layer xml:id="layer-0000001251295643" n="1">
-                                                    <mRest xml:id="mrest-0000000681722810" />
-                                                </layer>
-                                            </staff>
-                                            <staff xml:id="staff-0000001833103932" n="4">
-                                                <layer xml:id="layer-0000000365408067" n="1">
-                                                    <note xml:id="note-0000002145267481"  dur="breve" oct="3" pname="g" color="#000000" />
-                                                    <note xml:id="note-0000000908015775"  dur="1" oct="3" pname="g" color="#000000" />
-                                                </layer>
-                                            </staff>
-                                        </measure>
-                                      </rdg>
-                                    </app>
-
-
-                                    <!-- MEASURE 3 -->
-                                                      <app>
-                                                        <lem source="#White">
-                                                          <measure right="invis" >
-                                                          <!-- SUPERIUS -->
-                                                            <staff  n="1">
-                                                                <layer  n="1">
-                                                                  <note dur="semibrevis" num="1" numbase="1" pname="d" oct="4" />
-                                                                  <note dur="minima" num="1" numbase="2" pname="d" oct="4" stem.dir="up"/>
-                                                                  <note dur="semibrevis" num="1" numbase="1" pname="g" oct="4" />
-                                                                  <note dur="minima" num="1" numbase="2" pname="g" oct="4" stem.dir="up"/>
-
-                                                                </layer>
-                                                            </staff>
-                                                          <!-- ALTUS -->
-                                                            <staff  n="2">
-                                                              <layer  n="1">
-                                                                <note dur="minima" num="1" numbase="2" pname="a" oct="3" stem.dir="up" />
-                                                                <note dur="minima" num="3" numbase="4" oct="3" pname="b" stem.dir="down" />
-                                                                <dot form="aug" />
-                                                                <note dur="semiminima" num="1" numbase="4" oct="3" pname="a" stem.dir="up" />
-                                                                <note dur="semiminima" num="1" numbase="4" oct="3" pname="b" stem.dir="down" />
-                                                                <note dur="minima" num="1" numbase="2" oct="4" pname="d" stem.dir="down" />
-                                                                <note dur="fusa" num="1" numbase="8" oct="4" pname="c" stem.dir="down"/>
-                                                                <note dur="fusa" num="1" numbase="8" oct="3" pname="b" stem.dir="down" />
-                                                                <note dur="minima" num="1" numbase="2" oct="4" pname="c" stem.dir="down" />
-                                                                <custos/>
-                                                              </layer>
-                                                          </staff>
-                                                          <!-- TENOR -->
-                                                              <staff n="3">
-                                                                  <layer  n="1">
-                                                                    <!-- M1 -M6-->
-
-
-                                                                  </layer>
-                                                              </staff>
-                                                              <!-- BASSUS -->
-                                                                <staff  n="4">
-                                                                    <layer  n="1">
-                                                                      <note dur="minima" pname="f" oct="3" num="1" numbase="2" stem.dir="down"/>
-                                                                      <note dur="minima" pname="g" oct="3" num="3" numbase="4" stem.dir="down"/>
-                                                                      <dot form="aug" />
-                                                                      <note dur="semiminima" pname="f" oct="3" num="1" numbase="4" stem.dir="down"/>
-                                                                      <note dur="semiminima" pname="e" oct="3" num="1" numbase="4" stem.dir="down"/>
-                                                                      <note dur="semiminima" pname="d" oct="3" num="1" numbase="4" stem.dir="up"/>
-                                                                      <note dur="semibrevis" pname="e" oct="3" num="1" numbase="1"/>
-                                                                        </layer>
-                                                                    </staff>
-                                                          </measure>
-                                                        </lem>
-                                                        <rdg source="#CMN">
-                                                          <measure xml:id="measure-0000002137383859" n="3">
-                                                              <staff xml:id="staff-0000000032447897" n="1">
-                                                                  <layer xml:id="layer-0000001047339457" n="1">
-                                                                      <note xml:id="note-0000000865425221"   dur="1" oct="4" pname="d" color="#000000" />
-                                                                      <note xml:id="note-0000002059625927"   dur="2" oct="4" pname="d" color="#000000" stem.dir="up" />
-                                                                      <note xml:id="note-0000002008202001"   dur="1" oct="4" pname="g" color="#000000" />
-                                                                      <note xml:id="note-0000000072304244"   dur="2" oct="4" pname="g" color="#000000" stem.dir="up" />
-                                                                  </layer>
-                                                              </staff>
-                                                              <staff xml:id="staff-0000001600832595" n="2">
-                                                                  <layer xml:id="layer-0000000623632492" n="1">
-                                                                      <note xml:id="note-0000000143157871"   dur="2" oct="2" pname="a" color="#000000" stem.dir="up" />
-                                                                      <note xml:id="note-0000001467760856" dots="1"   dur="2" oct="2" pname="b" color="#000000" stem.dir="down" />
-                                                                      <note xml:id="note-0000001592056827"   dur="4" oct="2" pname="a" color="#000000" stem.dir="up" />
-                                                                      <note xml:id="note-0000001412136848"   dur="4" oct="2" pname="b" color="#000000" stem.dir="down" />
-                                                                      <note xml:id="note-0000001181389579"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
-                                                                      <beam xml:id="beam-0000000039202810">
-                                                                          <note xml:id="note-0000001170323385"   dur="8" oct="3" pname="c" color="#000000" stem.dir="down">
-                                                                              <accid xml:id="accid-0000001684646830" accid="s" accid.ges="s" />
-                                                                          </note>
-                                                                          <note xml:id="note-0000001780300968"   dur="8" oct="2" pname="b" color="#000000" stem.dir="down" />
-                                                                      </beam>
-                                                                      <note xml:id="note-0000000267776243"   dur="2" oct="3" pname="c" color="#000000" stem.dir="down" accid.ges="s" />
-                                                                  </layer>
-                                                              </staff>
-                                                              <staff xml:id="staff-0000000640154832" n="3">
-                                                                  <layer xml:id="layer-0000000852700373" n="1">
-                                                                      <mRest xml:id="mrest-0000001956326478" />
-                                                                  </layer>
-                                                              </staff>
-                                                              <staff xml:id="staff-0000000267109203" n="4">
-                                                                  <layer xml:id="layer-0000001650654907" n="1">
-                                                                      <note xml:id="note-0000000471163756"   dur="2" oct="3" pname="f" color="#000000" stem.dir="down" />
-                                                                      <note xml:id="note-0000000732101536" dots="1"   dur="2" oct="3" pname="g" color="#000000" stem.dir="down" />
-                                                                      <note xml:id="note-0000000841679766"   dur="4" oct="3" pname="f" color="#000000" stem.dir="down" />
-                                                                      <note xml:id="note-0000000593052392"   dur="4" oct="3" pname="e" color="#000000" stem.dir="down" />
-                                                                      <note xml:id="note-0000001169027155"   dur="4" oct="3" pname="d" color="#000000" stem.dir="down" />
-                                                                      <note xml:id="note-0000001494460532"   dur="1" oct="3" pname="e" color="#000000" />
-                                                                  </layer>
-                                                              </staff>
-                                                          </measure>
-                                                        </rdg>
-                                                      </app>
-
-
-                                                      <!-- MEASURE 4 -->
-                                                                        <app>
-                                                                          <lem source="#White">
-                                                                            <measure right="invis" >
-                                                                            <!-- SUPERIUS -->
-                                                                              <staff  n="1">
-                                                                                  <layer  n="1">
-                                                                                    <note dur="minima" num="1" numbase="2" pname="f" oct="4" stem.dir="up"/>
-                                                                                    <note dur="semibrevis" num="1" numbase="1" pname="e" oct="4" />
-                                                                                    <note dur="minima" num="1" numbase="2" pname="d" oct="4" stem.dir="up"/>
-                                                                                    <note dur="semibrevis" num="1" numbase="1" pname="e" oct="4" />
-
-                                                                                  </layer>
-                                                                              </staff>
-                                                                            <!-- ALTUS -->
-                                                                              <staff  n="2">
-                                                                                <layer  n="1">
-                                                                                  <note xml:id="note-0000002082025412"   dur="semibrevis" num="1" numbase="1" oct="4" pname="d" color="#000000" />
-                                                                                  <note xml:id="note-0000000279814287"   dur="minima" num="1" numbase="2" oct="4" pname="c" color="#000000" stem.dir="down" />
-                                                                                  <note xml:id="note-0000001489785525"   dur="minima" num="3" numbase="4" oct="4" pname="d" color="#000000" stem.dir="down" />
-                                                                                  <dot form="aug" />
-                                                                                  <note xml:id="note-0000000307933369"   dur="semiminima" num="1" numbase="4" oct="3" pname="b" color="#000000" stem.dir="down" />
-                                                                                  <note xml:id="note-0000001299668889"   dur="minima" num="1" numbase="2" oct="4" pname="c" color="#000000" stem.dir="down" />
-                                                                                </layer>
-                                                                            </staff>
-                                                                            <!-- TENOR -->
-                                                                                <staff n="3">
-                                                                                    <layer  n="1">
-                                                                                      <!-- M1 -M6-->
-
-
-                                                                                    </layer>
-                                                                                </staff>
-                                                                                <!-- BASSUS -->
-                                                                                  <staff  n="4">
-                                                                                      <layer  n="1">
-                                                                                        <note dur="minima" pname="d" oct="3" num="1" numbase="2" stem.dir="up"/>
-
-                                                                                        <note xml:id="note-0000001256792123"   dur="semibrevis" num="1" numbase="1" oct="3" pname="a" color="#000000" />
-                                                                                        <note xml:id="note-0000001901197201"   dur="minima" num="1" numbase="2" oct="3" pname="f" color="#000000" stem.dir="down" />
-                                                                                        <custos/>
-
-                                                                                        <note xml:id="note-0000000691526898"   dur="minima" num="1" numbase="2" oct="3" pname="g" color="#000000" stem.dir="down" />
-                                                                                        <note xml:id="note-0000000940826033"   dur="minima" num="1" numbase="2" oct="3" pname="a" color="#000000" stem.dir="down" />
-
-                                                                                          </layer>
-                                                                                      </staff>
-                                                                            </measure>
-                                                                          </lem>
-                                                                          <rdg source="#CMN">
-                                                                            <measure xml:id="measure-0000000946532869" n="4">
-                                                                                <staff xml:id="staff-0000001083639814" n="1">
-                                                                                    <layer xml:id="layer-0000001451330251" n="1">
-                                                                                        <note xml:id="note-0000000089731129"   dur="2" oct="4" pname="f" color="#000000" stem.dir="up" />
-                                                                                        <note xml:id="note-0000001284090539"   dur="1" oct="4" pname="e" color="#000000" />
-                                                                                        <note xml:id="note-0000001559042360"   dur="2" oct="4" pname="d" color="#000000" stem.dir="up" />
-                                                                                        <note xml:id="note-0000000232907153"   dur="1" oct="4" pname="e" color="#000000" />
-                                                                                    </layer>
-                                                                                </staff>
-                                                                                <staff xml:id="staff-0000000081444812" n="2">
-                                                                                    <layer xml:id="layer-0000001504324324" n="1">
-                                                                                        <note xml:id="note-0000001361359382"   dur="1" oct="3" pname="d" color="#000000" />
-                                                                                        <note xml:id="note-0000001463864159"   dur="2" oct="3" pname="c" color="#000000" stem.dir="down">
-                                                                                            <accid xml:id="accid-0000001651032653" accid="n" />
-                                                                                        </note>
-                                                                                        <note xml:id="note-0000001650284295" dots="1"  dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
-                                                                                        <note xml:id="note-0000000044291213"  dur="4" oct="2" pname="b" color="#000000" stem.dir="down" />
-                                                                                        <note xml:id="note-0000000789865663"   dur="2" oct="3" pname="c" color="#000000" stem.dir="down">
-                                                                                            <accid xml:id="accid-0000000199666843" accid="s" accid.ges="s" />
-                                                                                        </note>
-                                                                                    </layer>
-                                                                                </staff>
-                                                                                <staff xml:id="staff-0000000159733867" n="3">
-                                                                                    <layer xml:id="layer-0000000335842573" n="1">
-                                                                                        <mRest xml:id="mrest-0000000561796546" />
-                                                                                    </layer>
-                                                                                </staff>
-                                                                                <staff xml:id="staff-0000001635379706" n="4">
-                                                                                    <layer xml:id="layer-0000002144620837" n="1">
-                                                                                        <note xml:id="note-0000000928976316"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
-                                                                                        <note xml:id="note-0000002069485061"   dur="1" oct="3" pname="a" color="#000000" />
-                                                                                        <note xml:id="note-0000001034369490"   dur="2" oct="3" pname="f" color="#000000" stem.dir="down" />
-                                                                                        <note xml:id="note-0000000335873293"   dur="2" oct="3" pname="g" color="#000000" stem.dir="down" />
-                                                                                        <note xml:id="note-0000000326839863"   dur="2" oct="3" pname="a" color="#000000" stem.dir="down" />
-                                                                                    </layer>
-                                                                                </staff>
-                                                                            </measure>
-                                                                          </rdg>
-                                                                        </app>
-
-                                                                        <!-- MEASURE 5 -->
-                                                                                          <app>
-                                                                                            <lem source="#White">
-                                                                                              <measure right="invis" >
-                                                                                              <!-- SUPERIUS -->
-                                                                                                <staff  n="1">
-                                                                                                    <layer  n="1">
-                                                                                                      <note dur="semibrevis" num="1" numbase="1" pname="d" oct="4" />
-
-                                                                                                      <rest xml:id="rest-0000001338075857"   dur="minima" num="1" numbase="2" loc="0" />
-                                                                                                      <note xml:id="note-0000000944350871"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
-                                                                                                      <note xml:id="note-0000000217283362"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
-                                                                                                      <note xml:id="note-0000001140036789"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="up" />
-                                                                                                    </layer>
-                                                                                                </staff>
-                                                                                              <!-- ALTUS -->
-                                                                                                <staff  n="2">
-                                                                                                  <layer  n="1">
-                                                                                                    <note xml:id="note-0000000273655050"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="down" />
-                                                                                                    <note xml:id="note-0000000103006765"   dur="minima" num="1" numbase="2" oct="3" pname="b" color="#000000" stem.dir="down" />
-                                                                                                    <note xml:id="note-0000001246695267"   dur="minima" num="1" numbase="2" oct="4" pname="c" color="#000000" stem.dir="down"/>
-                                                                                                    <note xml:id="note-0000000300045673"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="down" />
-                                                                                                    <note xml:id="note-0000002103031992"   dur="minima" num="1" numbase="2" oct="3" pname="a" color="#000000" stem.dir="up" />
-                                                                                                    <note xml:id="note-0000002070677280"   dur="minima" num="1" numbase="2" oct="3" pname="b" color="#000000" stem.dir="down" />
-
-                                                                                                  </layer>
-                                                                                              </staff>
-                                                                                              <!-- TENOR -->
-                                                                                                  <staff n="3">
-                                                                                                      <layer  n="1">
-                                                                                                        <!-- M1 -M6-->
-
-
-                                                                                                      </layer>
-                                                                                                  </staff>
-                                                                                                  <!-- BASSUS -->
-                                                                                                    <staff  n="4">
-                                                                                                        <layer  n="1">
-                                                                                                          <note xml:id="note-0000000465408776"   dur="minima" num="1" numbase="2" oct="3" pname="d" color="#000000" stem.dir="up" />
-                                                                                                          <note xml:id="note-0000002125630872"   dur="minima" num="1" numbase="2" oct="3" pname="g" color="#000000" stem.dir="down" />
-                                                                                                          <note xml:id="note-0000001305824273"   dur="minima" num="1" numbase="2" oct="3" pname="f" color="#000000" stem.dir="down" />
-                                                                                                          <note xml:id="note-0000000987344000"   dur="minima" num="1" numbase="2" oct="3" pname="d" color="#000000"  stem.dir="up"/>
-                                                                                                          <rest xml:id="rest-0000000766805044"   dur="minima" num="1" numbase="2" loc="6" />
-                                                                                                          <note xml:id="note-0000001079819932"   dur="minima" num="1" numbase="2" oct="3" pname="g" color="#000000"  stem.dir="down"/>
-                                                                                                            </layer>
-                                                                                                        </staff>
-                                                                                              </measure>
-                                                                                            </lem>
-                                                                                            <rdg source="#CMN">
-                                                                                              <measure xml:id="measure-0000000839789782" n="5">
-                                                                                                  <staff xml:id="staff-0000001235531554" n="1" visible="true">
-                                                                                                      <layer xml:id="layer-0000001706880272" n="1">
-                                                                                                          <note xml:id="note-0000000967423004"   dur="1" oct="4" pname="d" color="#000000" />
-                                                                                                          <rest xml:id="rest-0000000251983399"   dur="2" />
-                                                                                                          <note xml:id="note-0000001215077915"   dur="2" oct="4" pname="a" color="#000000" stem.dir="up" />
-                                                                                                          <note xml:id="note-0000000156767261"   dur="2" oct="4" pname="a" color="#000000" stem.dir="up" />
-                                                                                                          <note xml:id="note-0000000849252066"   dur="2" oct="4" pname="d" color="#000000" stem.dir="up" />
-                                                                                                      </layer>
-                                                                                                  </staff>
-                                                                                                  <staff xml:id="staff-0000000175261451" n="2" visible="true">
-                                                                                                      <layer xml:id="layer-0000001928425982" n="1">
-                                                                                                          <note xml:id="note-0000001439480018"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
-                                                                                                          <note xml:id="note-0000002057304994"   dur="2" oct="2" pname="b" color="#000000" stem.dir="down" />
-                                                                                                          <note xml:id="note-0000000966781497"   dur="2" oct="3" pname="c" color="#000000" stem.dir="down">
-                                                                                                              <accid xml:id="accid-0000000362318520" accid="n" />
-                                                                                                          </note>
-                                                                                                          <note xml:id="note-0000000259571893"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
-                                                                                                          <note xml:id="note-0000001439700325"   dur="2" oct="2" pname="a" color="#000000" stem.dir="up" />
-                                                                                                          <note xml:id="note-0000001688030528"   dur="2" oct="2" pname="b" color="#000000" stem.dir="down" />
-                                                                                                      </layer>
-                                                                                                  </staff>
-                                                                                                  <staff xml:id="staff-0000000830230343" n="3" visible="true">
-                                                                                                      <layer xml:id="layer-0000001680317394" n="1">
-                                                                                                          <mRest xml:id="mrest-0000001197783938" />
-                                                                                                      </layer>
-                                                                                                  </staff>
-                                                                                                  <staff xml:id="staff-0000001195996512" n="4" visible="true">
-                                                                                                      <layer xml:id="layer-0000000896224206" n="1">
-                                                                                                          <note xml:id="note-0000000996910119"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
-                                                                                                          <note xml:id="note-0000002108095373"   dur="2" oct="3" pname="g" color="#000000" stem.dir="down" />
-                                                                                                          <note xml:id="note-0000000955305336"   dur="2" oct="3" pname="f" color="#000000" stem.dir="down" />
-                                                                                                          <note xml:id="note-0000001714370003"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
-                                                                                                          <rest xml:id="rest-0000000060489229"   dur="2" />
-                                                                                                          <note xml:id="note-0000001536618542"   dur="2" oct="3" pname="g" color="#000000" stem.dir="down" />
-                                                                                                      </layer>
-                                                                                                  </staff>
-                                                                                              </measure>
-                                                                                            </rdg>
-                                                                                          </app>
+<!-- MEASURE 3 -->
+        <app>
+          <lem source="#White">
+            <measure xml:id="measure-100003" right="invis" >
+            <!-- SUPERIUS -->
+              <staff xml:id="staff-1000031" n="1">
+                  <layer xml:id="layer-1000031" n="1">
+                    <note xml:id="note-10000311" dur="semibrevis" num="1" numbase="1" pname="d" oct="4" />
+                    <note xml:id="note-10000312" dur="minima" num="1" numbase="2" pname="d" oct="4" stem.dir="up"/>
+                    <note xml:id="note-10000313" dur="semibrevis" num="1" numbase="1" pname="g" oct="4" />
+                    <note xml:id="note-10000314" dur="minima" num="1" numbase="2" pname="g" oct="4" stem.dir="up"/>
+                  </layer>
+              </staff>
+            <!-- ALTUS -->
+              <staff xml:id="staff-1000032"  n="2">
+                <layer xml:id="layer-1000032"  n="1">
+                  <note xml:id="note-10000321" dur="minima" num="1" numbase="2" pname="a" oct="3" stem.dir="up" />
+                  <note xml:id="note-10000322" dur="minima" num="3" numbase="4" oct="3" pname="b" stem.dir="down" />
+                  <dot xml:id="dot-10000321" form="aug" />
+                  <note xml:id="note-10000323" dur="semiminima" num="1" numbase="4" oct="3" pname="a" stem.dir="up" />
+                  <note xml:id="note-10000324" dur="semiminima" num="1" numbase="4" oct="3" pname="b" stem.dir="down" />
+                  <note xml:id="note-10000325" dur="minima" num="1" numbase="2" oct="4" pname="d" stem.dir="down" />
+                  <note xml:id="note-10000326" dur="fusa" num="1" numbase="8" oct="4" pname="c" stem.dir="down"/>
+                  <note xml:id="note-10000327" dur="fusa" num="1" numbase="8" oct="3" pname="b" stem.dir="down" />
+                  <note xml:id="note-10000328" dur="minima" num="1" numbase="2" oct="4" pname="c" stem.dir="down" />
+                  <custos xml:id="custos-10000321" />
+                </layer>
+            </staff>
+            <!-- TENOR -->
+                <staff xml:id="staff-1000033" n="3">
+                    <layer xml:id="layer-1000033"  n="1">
+                      <!-- M1 -M6-->
+                    </layer>
+                </staff>
+                <!-- BASSUS -->
+                  <staff xml:id="staff-1000034" n="4">
+                      <layer xml:id="layer-1000034"  n="1">
+                        <note xml:id="note-10000341" dur="minima" pname="f" oct="3" num="1" numbase="2" stem.dir="down"/>
+                        <note xml:id="note-10000342" dur="minima" pname="g" oct="3" num="3" numbase="4" stem.dir="down"/>
+                        <dot xml:id="dot-10000341" form="aug" />
+                        <note xml:id="note-10000343" dur="semiminima" pname="f" oct="3" num="1" numbase="4" stem.dir="down"/>
+                        <note xml:id="note-10000344" dur="semiminima" pname="e" oct="3" num="1" numbase="4" stem.dir="down"/>
+                        <note xml:id="note-10000345" dur="semiminima" pname="d" oct="3" num="1" numbase="4" stem.dir="up"/>
+                        <note xml:id="note-10000346" dur="semibrevis" pname="e" oct="3" num="1" numbase="1"/>
+                          </layer>
+                      </staff>
+            </measure>
+          </lem>
+          <rdg source="#CMN">
+            <measure xml:id="measure-0000002137383859" n="3">
+                <staff xml:id="staff-0000000032447897" n="1">
+                    <layer xml:id="layer-0000001047339457" n="1">
+                        <note xml:id="note-0000000865425221"   dur="1" oct="4" pname="d" color="#000000" />
+                        <note xml:id="note-0000002059625927"   dur="2" oct="4" pname="d" color="#000000" stem.dir="up" />
+                        <note xml:id="note-0000002008202001"   dur="1" oct="4" pname="g" color="#000000" />
+                        <note xml:id="note-0000000072304244"   dur="2" oct="4" pname="g" color="#000000" stem.dir="up" />
+                    </layer>
+                </staff>
+                <staff xml:id="staff-0000001600832595" n="2">
+                    <layer xml:id="layer-0000000623632492" n="1">
+                        <note xml:id="note-0000000143157871"   dur="2" oct="2" pname="a" color="#000000" stem.dir="up" />
+                        <note xml:id="note-0000001467760856" dots="1"   dur="2" oct="2" pname="b" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000001592056827"   dur="4" oct="2" pname="a" color="#000000" stem.dir="up" />
+                        <note xml:id="note-0000001412136848"   dur="4" oct="2" pname="b" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000001181389579"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
+                        <beam xml:id="beam-0000000039202810">
+                            <note xml:id="note-0000001170323385"   dur="8" oct="3" pname="c" color="#000000" stem.dir="down">
+                                <accid xml:id="accid-0000001684646830" accid="s" accid.ges="s" />
+                            </note>
+                            <note xml:id="note-0000001780300968"   dur="8" oct="2" pname="b" color="#000000" stem.dir="down" />
+                        </beam>
+                        <note xml:id="note-0000000267776243"   dur="2" oct="3" pname="c" color="#000000" stem.dir="down" accid.ges="s" />
+                    </layer>
+                </staff>
+                <staff xml:id="staff-0000000640154832" n="3">
+                    <layer xml:id="layer-0000000852700373" n="1">
+                        <mRest xml:id="mrest-0000001956326478" />
+                    </layer>
+                </staff>
+                <staff xml:id="staff-0000000267109203" n="4">
+                    <layer xml:id="layer-0000001650654907" n="1">
+                        <note xml:id="note-0000000471163756"   dur="2" oct="3" pname="f" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000000732101536" dots="1"   dur="2" oct="3" pname="g" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000000841679766"   dur="4" oct="3" pname="f" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000000593052392"   dur="4" oct="3" pname="e" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000001169027155"   dur="4" oct="3" pname="d" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000001494460532"   dur="1" oct="3" pname="e" color="#000000" />
+                    </layer>
+                </staff>
+            </measure>
+          </rdg>
+        </app>
+  <!-- MEASURE 4 -->
+        <app>
+          <lem source="#White">
+            <measure xml:id="measure-100004" right="invis" >
+            <!-- SUPERIUS -->
+              <staff xml:id="staff-1000041" n="1">
+                  <layer xml:id="layer-1000041"  n="1">
+                    <note xml:id="note-10000411" dur="minima" num="1" numbase="2" pname="f" oct="4" stem.dir="up"/>
+                    <note xml:id="note-10000412" dur="semibrevis" num="1" numbase="1" pname="e" oct="4" />
+                    <note xml:id="note-10000413" dur="minima" num="1" numbase="2" pname="d" oct="4" stem.dir="up"/>
+                    <note xml:id="note-10000414" dur="semibrevis" num="1" numbase="1" pname="e" oct="4" />
+                  </layer>
+              </staff>
+            <!-- ALTUS -->
+              <staff xml:id="staff-1000042"  n="2">
+                <layer xml:id="layer-1000042"  n="1">
+                  <note xml:id="note-0000002082025412"   dur="semibrevis" num="1" numbase="1" oct="4" pname="d" color="#000000" />
+                  <note xml:id="note-0000000279814287"   dur="minima" num="1" numbase="2" oct="4" pname="c" color="#000000" stem.dir="down" />
+                  <note xml:id="note-0000001489785525"   dur="minima" num="3" numbase="4" oct="4" pname="d" color="#000000" stem.dir="down" />
+                  <dot xml:id="dot-10000421" form="aug" />
+                  <note xml:id="note-0000000307933369"   dur="semiminima" num="1" numbase="4" oct="3" pname="b" color="#000000" stem.dir="down" />
+                  <note xml:id="note-0000001299668889"   dur="minima" num="1" numbase="2" oct="4" pname="c" color="#000000" stem.dir="down" />
+                </layer>
+            </staff>
+            <!-- TENOR -->
+                <staff xml:id="staff-1000043" n="3">
+                    <layer xml:id="layer-1000043" n="1">
+                      <!-- M1 -M6-->
+                    </layer>
+                </staff>
+                <!-- BASSUS -->
+                  <staff xml:id="staff-1000044"  n="4">
+                      <layer xml:id="layer-1000044"  n="1">
+                        <note xml:id="note-10000431" dur="minima" pname="d" oct="3" num="1" numbase="2" stem.dir="up"/>
+                        <note xml:id="note-0000001256792123"   dur="semibrevis" num="1" numbase="1" oct="3" pname="a" color="#000000" />
+                        <note xml:id="note-0000001901197201"   dur="minima" num="1" numbase="2" oct="3" pname="f" color="#000000" stem.dir="down" />
+                        <custos xml:id="custos-1000043" />
+                        <note xml:id="note-0000000691526898"   dur="minima" num="1" numbase="2" oct="3" pname="g" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000000940826033"   dur="minima" num="1" numbase="2" oct="3" pname="a" color="#000000" stem.dir="down" />
+                          </layer>
+                      </staff>
+            </measure>
+          </lem>
+          <rdg source="#CMN">
+            <measure xml:id="measure-0000000946532869" n="4">
+                <staff xml:id="staff-0000001083639814" n="1">
+                    <layer xml:id="layer-0000001451330251" n="1">
+                        <note xml:id="note-0000000089731129"   dur="2" oct="4" pname="f" color="#000000" stem.dir="up" />
+                        <note xml:id="note-0000001284090539"   dur="1" oct="4" pname="e" color="#000000" />
+                        <note xml:id="note-0000001559042360"   dur="2" oct="4" pname="d" color="#000000" stem.dir="up" />
+                        <note xml:id="note-0000000232907153"   dur="1" oct="4" pname="e" color="#000000" />
+                    </layer>
+                </staff>
+                <staff xml:id="staff-0000000081444812" n="2">
+                    <layer xml:id="layer-0000001504324324" n="1">
+                        <note xml:id="note-0000001361359382"   dur="1" oct="3" pname="d" color="#000000" />
+                        <note xml:id="note-0000001463864159"   dur="2" oct="3" pname="c" color="#000000" stem.dir="down">
+                            <accid xml:id="accid-0000001651032653" accid="n" />
+                        </note>
+                        <note xml:id="note-0000001650284295" dots="1"  dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000000044291213"  dur="4" oct="2" pname="b" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000000789865663"   dur="2" oct="3" pname="c" color="#000000" stem.dir="down">
+                            <accid xml:id="accid-0000000199666843" accid="s" accid.ges="s" />
+                        </note>
+                    </layer>
+                </staff>
+                <staff xml:id="staff-0000000159733867" n="3">
+                    <layer xml:id="layer-0000000335842573" n="1">
+                        <mRest xml:id="mrest-0000000561796546" />
+                    </layer>
+                </staff>
+                <staff xml:id="staff-0000001635379706" n="4">
+                    <layer xml:id="layer-0000002144620837" n="1">
+                        <note xml:id="note-0000000928976316"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000002069485061"   dur="1" oct="3" pname="a" color="#000000" />
+                        <note xml:id="note-0000001034369490"   dur="2" oct="3" pname="f" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000000335873293"   dur="2" oct="3" pname="g" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000000326839863"   dur="2" oct="3" pname="a" color="#000000" stem.dir="down" />
+                    </layer>
+                </staff>
+            </measure>
+          </rdg>
+        </app>
+        <!-- MEASURE 5 -->
+            <app>
+              <lem source="#White">
+                <measure xml:id="measure-100005" right="invis" >
+                <!-- SUPERIUS -->
+                  <staff xml:id="staff-1000051"  n="1">
+                      <layer xml:id="layer-1000051"  n="1">
+                        <note xml:id="note-10000511" dur="semibrevis" num="1" numbase="1" pname="d" oct="4" />
+                        <rest xml:id="rest-0000001338075857"   dur="minima" num="1" numbase="2" loc="0" />
+                        <note xml:id="note-0000000944350871"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000000217283362"   dur="minima" num="1" numbase="2" oct="4" pname="a" color="#000000" stem.dir="down" />
+                        <note xml:id="note-0000001140036789"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="up" />
+                      </layer>
+                  </staff>
+                <!-- ALTUS -->
+                  <staff xml:id="staff-1000052"  n="2">
+                    <layer xml:id="layer-1000052"  n="1">
+                      <note xml:id="note-0000000273655050"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="down" />
+                      <note xml:id="note-0000000103006765"   dur="minima" num="1" numbase="2" oct="3" pname="b" color="#000000" stem.dir="down" />
+                      <note xml:id="note-0000001246695267"   dur="minima" num="1" numbase="2" oct="4" pname="c" color="#000000" stem.dir="down"/>
+                      <note xml:id="note-0000000300045673"   dur="minima" num="1" numbase="2" oct="4" pname="d" color="#000000" stem.dir="down" />
+                      <note xml:id="note-0000002103031992"   dur="minima" num="1" numbase="2" oct="3" pname="a" color="#000000" stem.dir="up" />
+                      <note xml:id="note-0000002070677280"   dur="minima" num="1" numbase="2" oct="3" pname="b" color="#000000" stem.dir="down" />
+                    </layer>
+                </staff>
+                <!-- TENOR -->
+                    <staff xml:id="staff-1000053" n="3">
+                        <layer xml:id="layer-1000053"  n="1">
+                          <!-- M1 -M6-->
+                        </layer>
+                    </staff>
+                    <!-- BASSUS -->
+                      <staff xml:id="staff-1000054"  n="4">
+                          <layer xml:id="layer-1000054"  n="1">
+                            <note xml:id="note-0000000465408776"   dur="minima" num="1" numbase="2" oct="3" pname="d" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000002125630872"   dur="minima" num="1" numbase="2" oct="3" pname="g" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000001305824273"   dur="minima" num="1" numbase="2" oct="3" pname="f" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000000987344000"   dur="minima" num="1" numbase="2" oct="3" pname="d" color="#000000"  stem.dir="up"/>
+                            <rest xml:id="rest-0000000766805044"   dur="minima" num="1" numbase="2" loc="6" />
+                            <note xml:id="note-0000001079819932"   dur="minima" num="1" numbase="2" oct="3" pname="g" color="#000000"  stem.dir="down"/>
+                              </layer>
+                          </staff>
+                </measure>
+              </lem>
+              <rdg source="#CMN">
+                <measure xml:id="measure-0000000839789782" n="5">
+                    <staff xml:id="staff-0000001235531554" n="1" visible="true">
+                        <layer xml:id="layer-0000001706880272" n="1">
+                            <note xml:id="note-0000000967423004"   dur="1" oct="4" pname="d" color="#000000" />
+                            <rest xml:id="rest-0000000251983399"   dur="2" />
+                            <note xml:id="note-0000001215077915"   dur="2" oct="4" pname="a" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000156767261"   dur="2" oct="4" pname="a" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000000849252066"   dur="2" oct="4" pname="d" color="#000000" stem.dir="up" />
+                        </layer>
+                    </staff>
+                    <staff xml:id="staff-0000000175261451" n="2" visible="true">
+                        <layer xml:id="layer-0000001928425982" n="1">
+                            <note xml:id="note-0000001439480018"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000002057304994"   dur="2" oct="2" pname="b" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000000966781497"   dur="2" oct="3" pname="c" color="#000000" stem.dir="down">
+                                <accid xml:id="accid-0000000362318520" accid="n" />
+                            </note>
+                            <note xml:id="note-0000000259571893"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000001439700325"   dur="2" oct="2" pname="a" color="#000000" stem.dir="up" />
+                            <note xml:id="note-0000001688030528"   dur="2" oct="2" pname="b" color="#000000" stem.dir="down" />
+                        </layer>
+                    </staff>
+                    <staff xml:id="staff-0000000830230343" n="3" visible="true">
+                        <layer xml:id="layer-0000001680317394" n="1">
+                            <mRest xml:id="mrest-0000001197783938" />
+                        </layer>
+                    </staff>
+                    <staff xml:id="staff-0000001195996512" n="4" visible="true">
+                        <layer xml:id="layer-0000000896224206" n="1">
+                            <note xml:id="note-0000000996910119"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000002108095373"   dur="2" oct="3" pname="g" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000000955305336"   dur="2" oct="3" pname="f" color="#000000" stem.dir="down" />
+                            <note xml:id="note-0000001714370003"   dur="2" oct="3" pname="d" color="#000000" stem.dir="down" />
+                            <rest xml:id="rest-0000000060489229"   dur="2" />
+                            <note xml:id="note-0000001536618542"   dur="2" oct="3" pname="g" color="#000000" stem.dir="down" />
+                        </layer>
+                    </staff>
+                </measure>
+              </rdg>
+            </app>
 
                     </section>
                 </score>
