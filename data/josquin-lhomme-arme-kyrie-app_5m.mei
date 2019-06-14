@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei">
-    <meiHead>
-        <fileDesc>
-            <titleStmt>
-                <title>Missa L'homme arme super voces musicales</title>
-                <author></author>
-                <composer>Josquin des Prez</composer>
-                <respStmt>
-                  <resp>Encoded by</resp>
-                  <resp>Debra Nakos</resp>
+    <meiHead xml:id="head-01">
+        <fileDesc xml:id="filedesc-01">
+            <titleStmt xml:id="titlestmt-01">
+                <title xml:id="title-01">Missa L'homme arme super voces musicales</title>
+                <author xml:id="author-01"></author>
+                <composer xml:id="composer-01">Josquin des Prez</composer>
+                <respStmt xml:id="respstmt-01">
+                  <resp xml:id="resp-01">Encoded by</resp>
+                  <resp xml:id="resp-02">Debra Nakos</resp>
                 </respStmt>
-
             </titleStmt>
-            <editionStmt>
-
-                <edition></edition>
+            <editionStmt xml:id="editionstmt-01">
+                <edition xml:id="edition-01"></edition>
             </editionStmt>
-
-            <pubStmt></pubStmt>
-            <sourceDesc>
+            <pubStmt xml:id="pubstmt-01"></pubStmt>
+            <sourceDesc xml:id="sourcedesc-01">
               <source xml:id="White" />
               <source xml:id="CMN" />
             </sourceDesc>
@@ -33,10 +30,10 @@
             </appInfo>
         </encodingDesc>
     </meiHead>
-    <music>
-        <body>
+    <music xml:id="music-01">
+        <body xml:id="body-01">
             <mdiv xml:id="mdiv-0000000414289607" n="1">
-              <score >
+              <score xml:id="score-01">
                     <scoreDef xml:id="scoredef-0000002056545718">
                         <staffGrp xml:id="staffgrp-0000000015562865">
                             <staffDef xml:id="staffdef-0000001286543423"  n="1" lines="5" >
@@ -53,12 +50,10 @@
                             </staffDef>
                         </staffGrp>
                     </scoreDef>
-
-                  <section >
-
+                  <section xml:id="section-01" >
 <!-- MEASURE 1 -->
-                  <app>
-                    <lem source="#White">
+                  <app xml:id="app-001">
+                    <lem xml:id="lem-001" source="#White">
                       <measure xml:id="measure-100001"  right="invis" >
                       <!-- SUPERIUS -->
                         <staff xml:id="staff-1000011" n="1">
@@ -101,12 +96,12 @@
                                 </staff>
                       </measure>
                     </lem>
-                    <rdg source="#CMN">
+                    <rdg xml:id="rdg-001" source="#CMN">
                       <measure xml:id="measure-0000001635402634" n="1">
                             <staff xml:id="staff-0000001613901793" n="1">
                                 <layer xml:id="layer-0000001419175433" n="1">
-                                  <clef shape="G" line="2"/>
-                                  <meterSig count="3" unit="1"/>
+                                  <clef xml:id="clefcmn-01" shape="G" line="2"/>
+                                  <meterSig xml:id="metersigcmn-01" count="3" unit="1"/>
                                   <mRest xml:id="mrest-0000000559151935" />
                                 </layer>
                             </staff>
@@ -135,11 +130,9 @@
                       </measure>
                     </rdg>
                   </app>
-
-
                   <!-- MEASURE 2 -->
-          <app>
-            <lem source="#White">
+          <app xml:id="app-002">
+            <lem xml:id="lem-002" source="#White">
               <measure xml:id="measure-100002" right="invis" >
               <!-- SUPERIUS -->
                 <staff  xml:id="staff-1000021" n="1">
@@ -170,7 +163,7 @@
                 </staff>
               </measure>
             </lem>
-            <rdg source="#CMN">
+            <rdg xml:id="rdg-002" source="#CMN">
               <measure xml:id="measure-0000000077345237" n="2">
                   <staff xml:id="staff-0000002141989293" n="1">
                       <layer xml:id="layer-0000000529649877" n="1">
@@ -201,8 +194,8 @@
           </app>
 
 <!-- MEASURE 3 -->
-        <app>
-          <lem source="#White">
+        <app xml:id="app-003">
+          <lem xml:id="lem-003" source="#White">
             <measure xml:id="measure-100003" right="invis" >
             <!-- SUPERIUS -->
               <staff xml:id="staff-1000031" n="1">
@@ -248,7 +241,7 @@
                       </staff>
             </measure>
           </lem>
-          <rdg source="#CMN">
+          <rdg xml:id="rdg-003" source="#CMN">
             <measure xml:id="measure-0000002137383859" n="3">
                 <staff xml:id="staff-0000000032447897" n="1">
                     <layer xml:id="layer-0000001047339457" n="1">
@@ -293,8 +286,8 @@
           </rdg>
         </app>
   <!-- MEASURE 4 -->
-        <app>
-          <lem source="#White">
+        <app xml:id="app-004" >
+          <lem xml:id="lem-004" source="#White">
             <measure xml:id="measure-100004" right="invis" >
             <!-- SUPERIUS -->
               <staff xml:id="staff-1000041" n="1">
@@ -335,7 +328,7 @@
                       </staff>
             </measure>
           </lem>
-          <rdg source="#CMN">
+          <rdg xml:id="rdg-004" source="#CMN">
             <measure xml:id="measure-0000000946532869" n="4">
                 <staff xml:id="staff-0000001083639814" n="1">
                     <layer xml:id="layer-0000001451330251" n="1">
@@ -376,8 +369,8 @@
           </rdg>
         </app>
         <!-- MEASURE 5 -->
-            <app>
-              <lem source="#White">
+            <app xml:id="app-005" >
+              <lem xml:id="lem-005" source="#White">
                 <measure xml:id="measure-100005" right="invis" >
                 <!-- SUPERIUS -->
                   <staff xml:id="staff-1000051"  n="1">
@@ -419,7 +412,7 @@
                           </staff>
                 </measure>
               </lem>
-              <rdg source="#CMN">
+              <rdg xml:id="rdg-005" source="#CMN">
                 <measure xml:id="measure-0000000839789782" n="5">
                     <staff xml:id="staff-0000001235531554" n="1" visible="true">
                         <layer xml:id="layer-0000001706880272" n="1">
