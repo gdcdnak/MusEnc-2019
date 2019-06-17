@@ -54,7 +54,7 @@
 <!-- MEASURE 1 -->
                   <app xml:id="app-001">
                     <lem xml:id="lem-001" source="#White">
-                      <measure xml:id="measure-100001"  right="single" barplace="mensur" >
+                      <measure xml:id="measure-100001"  barplace="mensur" >
                       <!-- SUPERIUS -->
                         <staff xml:id="staff-1000011" n="1">
                             <layer xml:id="layer-1000011"  n="1">
@@ -133,7 +133,7 @@
                   <!-- MEASURE 2 -->
           <app xml:id="app-002">
             <lem xml:id="lem-002" source="#White">
-              <measure xml:id="measure-100002" right="invis" barplace="mensur" >
+              <measure xml:id="measure-100002" barplace="mensur" >
               <!-- SUPERIUS -->
                 <staff  xml:id="staff-1000021" n="1">
                     <layer xml:id="layer-1000021" n="1">
@@ -196,7 +196,7 @@
 <!-- MEASURE 3 -->
         <app xml:id="app-003">
           <lem xml:id="lem-003" source="#White">
-            <measure xml:id="measure-100003" right="invis"  barplace="mensur">
+            <measure xml:id="measure-100003" barplace="mensur">
             <!-- SUPERIUS -->
               <staff xml:id="staff-1000031" n="1">
                   <layer xml:id="layer-1000031" n="1">
@@ -288,7 +288,7 @@
   <!-- MEASURE 4 -->
         <app xml:id="app-004" >
           <lem xml:id="lem-004" source="#White">
-            <measure xml:id="measure-100004" right="invis" barplace="mensur" >
+            <measure xml:id="measure-100004" barplace="mensur" >
             <!-- SUPERIUS -->
               <staff xml:id="staff-1000041" n="1">
                   <layer xml:id="layer-1000041"  n="1">
@@ -371,7 +371,7 @@
         <!-- MEASURE 5 -->
             <app xml:id="app-005" >
               <lem xml:id="lem-005" source="#White">
-                <measure xml:id="measure-100005" right="invis" barplace="mensur" >
+                <measure xml:id="measure-100005"  barplace="mensur" >
                 <!-- SUPERIUS -->
                   <staff xml:id="staff-1000051"  n="1">
                       <layer xml:id="layer-1000051"  n="1">
