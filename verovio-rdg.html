@@ -58,7 +58,7 @@
                 $(".rdg").attr("fill", "#d00").attr("stroke", "#d00");
             };
             function loadFile() {
-                file = "data/josquin-lhommme-arme-kyrie-mensural.mei";
+                file = "data/josquin-lhomme-arme-kyrie-app_5m.mei";
                 $.ajax({
                     url: file
                     , dataType: "text"
@@ -79,7 +79,7 @@
                         loadFile();
                     }
                     else if (event.keyCode == 50) {
-                        appXPath = ["./rdg[contains(@source, '#source.CMN')]"];
+                        appXPath = ["./rdg[contains(@source, '#CMN')]"];
                         loadFile();
                     }
                 });
