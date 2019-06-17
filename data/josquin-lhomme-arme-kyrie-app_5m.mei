@@ -4,7 +4,7 @@
     <meiHead xml:id="head-01">
         <fileDesc xml:id="filedesc-01">
             <titleStmt xml:id="titlestmt-01">
-                <title xml:id="title-01">Missa L'homme arme super voces musicales .</title>
+                <title xml:id="title-01">Missa L'homme arme super voces musicales ..</title>
                 <author xml:id="author-01"></author>
                 <composer xml:id="composer-01">Josquin des Prez</composer>
                 <respStmt xml:id="respstmt-01">
@@ -54,7 +54,7 @@
 <!-- MEASURE 1 -->
                   <app xml:id="app-001">
                     <lem xml:id="lem-001" source="#White">
-                      <measure xml:id="measure-100001"  barplace="mensur" taktplace="-2"  >
+                      <measure xml:id="measure-100001"  barplace="mensur" width="1in"  >
                       <!-- SUPERIUS -->
                         <staff xml:id="staff-1000011" n="1">
                             <layer xml:id="layer-1000011"  n="1">
@@ -97,7 +97,7 @@
                       </measure>
                     </lem>
                     <rdg xml:id="rdg-001" source="#CMN">
-                      <measure xml:id="measure-0000001635402634" n="1">
+                      <measure xml:id="measure-0000001635402634" n="1" width="1in">
                             <staff xml:id="staff-0000001613901793" n="1">
                                 <layer xml:id="layer-0000001419175433" n="1">
                                   <clef xml:id="clefcmn-01" shape="G" line="2"/>
@@ -133,7 +133,7 @@
                   <!-- MEASURE 2 -->
           <app xml:id="app-002">
             <lem xml:id="lem-002" source="#White">
-              <measure xml:id="measure-100002" barplace="mensur" >
+              <measure xml:id="measure-100002" barplace="mensur" width="1in" >
               <!-- SUPERIUS -->
                 <staff  xml:id="staff-1000021" n="1">
                     <layer xml:id="layer-1000021" n="1">
@@ -164,7 +164,7 @@
               </measure>
             </lem>
             <rdg xml:id="rdg-002" source="#CMN">
-              <measure xml:id="measure-0000000077345237" n="2">
+              <measure xml:id="measure-0000000077345237" n="2" width="1in">
                   <staff xml:id="staff-0000002141989293" n="1">
                       <layer xml:id="layer-0000000529649877" n="1">
                           <mRest xml:id="mrest-0000000153512601" />
