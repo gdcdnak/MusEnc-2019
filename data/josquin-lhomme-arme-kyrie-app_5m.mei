@@ -54,7 +54,7 @@
 <!-- MEASURE 1 -->
                   <app xml:id="app-001">
                     <lem xml:id="lem-001" source="#White">
-                      <measure xml:id="measure-100001"  barplace="mensur" >
+                      <measure xml:id="measure-100001"  barplace="mensur" taktplace="-2"  >
                       <!-- SUPERIUS -->
                         <staff xml:id="staff-1000011" n="1">
                             <layer xml:id="layer-1000011"  n="1">
